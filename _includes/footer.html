@@ -1,0 +1,9 @@
+<footer class="c-footer">
+  <div class="u-container c-footer__container">
+    <p>&copy; {{ site.institution }} {{ site.time | date: '%Y' }}</p>
+    <p>
+      {% if site.website %}<a target="_blank" href="{{ site.website }}">Website</a>{% endif %}
+      {% if site.githubRepo %}<a target="_blank" href="{{ site.githubRepo }}">Github</a>{% endif %}
+    </p>
+  </div>
+</footer>

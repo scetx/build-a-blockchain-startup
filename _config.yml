@@ -1,1 +1,28 @@
-theme: jekyll-theme-cayman
+# Site settings
+# If you look in the HTML files, you will see variables here accessed via 
+# {{ site.title }}, {{ site.url }}, and so on.
+# You can create any custom variable you would like, and they will be
+# accessible in the templates via {{ site.myvariable }}.
+title: Build a Blockchain Startup
+subtitle: Decentralized Application (dApp) Development and Entrepreneurship
+institution: UC Berkeley SCET
+course: INDENG 190E-002/290-002
+description: > # this means to ignore newlines until "baseurl:"
+  Write a description here.
+  It will appear in your document head meta (for Google search results).
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+
+# Social
+website: https://scet.berkeley.edu/students/courses/advanced-topics/decentralized-application-dapp-development-and-entrepreneurship/
+githubRepo: https://github.com/timg512372/dapp-course-website/
+
+# Build settings
+# markdown: kramdown
+
+fixedNav: 'true'
+
+include: [_pages]
+exclude: [_site, LICENSE, README.md]
+sass:
+  style: compressed
