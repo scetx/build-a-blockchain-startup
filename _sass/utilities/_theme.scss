@@ -8,13 +8,21 @@
    .c-header {
       background: $c__blue-grey;
    }
-   
-   .c-article__main a:not(.c-btn) {
-      color: $c__blue-grey;
+   .c-article {
+      background-color: $c__off-black;
+   }
+   .c-article p, h1, h2, h3, td, tr {
+      color: $c__off-white;
+   }
+   .c-article a {
+      color: $c__amber;
    }
    
+   .c-footer {
+      background-color: $c__off-black;
+   }
    .c-footer a {
-      color: $c__blue-grey;
+      color: $c__amber;
    }
 }
    

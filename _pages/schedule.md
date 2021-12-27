@@ -4,16 +4,51 @@ title: Schedule
 permalink: /schedule/
 ---
 
-| Week # | Tech (Tues)  | Business (Thurs) | Deliverable  |
-| ------ | ------------ | ---------------- | ------------ |
-| 1      | Content Cell | Content Cell     | Content Cell |
-| 2      | Content Cell | Content Cell     | Content Cell |
-| 3      | Content Cell | Content Cell     | Content Cell |
-| 4      | Content Cell | Content Cell     | Content Cell |
-| 5      | Content Cell | Content Cell     | Content Cell |
-| 6      | Content Cell | Content Cell     | Content Cell |
-| 7      | Content Cell | Content Cell     | Content Cell |
-| 8      | Content Cell | Content Cell     | Content Cell |
-| 9      | Content Cell | Content Cell     | Content Cell |
-| 10     | Content Cell | Content Cell     | Content Cell |
-| 11     | Content Cell | Content Cell     | Content Cell |
+
+<table style="table-layout: fixed; font-size: 88%;">
+  <thead>
+      <th style="width: 10%;"> Date </th>
+      <th style="width: 10%;"> Quiz </th>
+      <th style="width: 50%;"> Topic </th>
+      <th style="width: 30%;"> Readings </th>
+  </thead>
+  <tbody>
+    {% for row in site.data.schedule %}
+    <tr>
+      <td> {{ row.date }} </td>
+      <td> 
+        {% if row.quiz %} 
+          <a target="_parent" href="{{row.quiz.link}}" style="text-decoration: underline;">{{row.quiz.name}}</a>
+        {% else %}
+          None
+        {% endif %}
+      </td>
+      <td> {{ row.topic }} 
+        <br>
+        {% if row.recording %}
+          [<a target="_parent" href="{{row.recording}}" style="font-size: 80%;text-decoration: underline;">Recording</a>]
+        {% endif %}
+        {% if row.slides %}
+          [<a target="_parent" href="{{site.url}}{{row.slides}}" style="font-size: 80%;">Slides</a>]
+        {% endif %}
+      </td>
+      <td> 
+        {% if row.reading %}
+        <ul style="margin-bottom: 0;">
+          {% for r in row.reading %}
+            {% if r.file %}
+              {% assign reading_link = {{site.url}} | append: r.file %}
+            {% endif %}
+            {% if r.link %}
+              {% assign reading_link = r.link %}
+            {% endif %}
+          <li> <a target="_parent" href="{{reading_link}}"> {{ r.name }} </a> </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+

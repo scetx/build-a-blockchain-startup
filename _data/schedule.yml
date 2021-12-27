@@ -1,0 +1,109 @@
+# - date: 08/26
+#   topic: Introduction and Overview of DeFi
+#   recording: https://youtube.com/playlist?list=PLS01nW3RtgorojSlcoLBPRfoNGzQFywaL
+#   quiz:
+#     name: Quiz 1
+#     link: https://forms.gle/29iVNtDaiEnRdum36
+#   slides: /assets/slides/lec2-dan-tech-intro.pdf
+#   reading:
+#     - name: Cryptocurrencies and Blockchain Technologies (CS251 at Stanford)
+#       link: https://cs251.stanford.edu
+#     - name: A Fistful of Bitcoins
+#       file: A Fistful of Bitcoins- Characterizing Payments Among Men with No Names.pdf
+#     - name: Succinct Non-Interactive Arguments
+#       file: Succinct Non-Interactive Arguments via Linear Interactive Proofs.pdf
+#     - name: Tornado Cash Whitepaper
+#       file: Tornado Cash Whitepaper.pdf
+#     - name: Confidential Transactions
+#       link: https://elementsproject.org/features/confidential-transactions/investigation
+
+- date: 01/18
+  topic: Introduction to Blockchain Technology
+  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31 
+  slides: /assets/slides/01-intro.pdf
+  reading:
+    - name: Some Things
+      file: /assets/files/things.pdf
+    - name: Other Things
+      link: https://github.com
+
+- date: 01/20
+  topic: TBD
+
+- date: 01/25
+  topic: TBD
+
+- date: 01/27
+  topic: Ideation Gala w/ B@B 
+
+- date: 02/1
+  topic: TBD
+
+- date: 02/3
+  topic: TBD
+
+- date: 02/8
+  topic: TBD
+
+- date: 02/15
+  topic: "ETHDenver: Choose your Adventure!"
+
+- date: 02/18
+  topic: TBD
+
+- date: 02/22
+  topic: TBD
+
+- date: 02/25
+  topic: TBD
+
+- date: 03/1
+  topic: TBD
+
+- date: 03/3
+  topic: TBD
+
+- date: 03/8
+  topic: TBD
+
+- date: 03/10
+  topic: TBD
+
+- date: 03/15
+  topic: TBD
+
+- date: 03/17
+  topic: TBD
+
+- date: 03/22
+  topic: "SPRING BREAK!"
+
+- date: 03/24
+  topic: "SPRING BREAK!"
+
+- date: 03/29
+  topic: TBD
+
+- date: 03/31
+  topic: TBD
+
+- date: 04/5
+  topic: TBD
+
+- date: 04/7
+  topic: TBD
+
+- date: 04/11
+  topic: TBD
+
+- date: 04/18
+  topic: TBD
+
+- date: 04/21
+  topic: TBD
+
+- date: 04/25
+  topic: TBD
+
+- date: 04/28
+  topic: TBD
