@@ -1,35 +1,38 @@
 ---
-layout: page
+layout: title-page
 title: Schedule
 permalink: /schedule/
 ---
 
 
-<table style="table-layout: fixed; font-size: 88%;">
+<table style="table-layout: fixed; font-size: 80%;">
   <thead>
-      <th style="width: 10%;"> Date </th>
-      <th style="width: 10%;"> Quiz </th>
-      <th style="width: 50%;"> Topic </th>
-      <th style="width: 30%;"> Readings </th>
+      <th style="text-align:left; width: 10%;"> Date </th>
+      <!-- <th style="text-align:left; width: 10%;"> Quiz </th> -->
+      <th style="text-align:left; width: 50%;"> Topic </th>
+      <th style="text-align:left; width: 30%;"> Readings </th>
   </thead>
   <tbody>
     {% for row in site.data.schedule %}
     <tr>
       <td> {{ row.date }} </td>
-      <td> 
+      <!-- <td> 
         {% if row.quiz %} 
           <a target="_parent" href="{{row.quiz.link}}" style="text-decoration: underline;">{{row.quiz.name}}</a>
         {% else %}
           None
         {% endif %}
-      </td>
+      </td> -->
       <td> {{ row.topic }} 
         <br>
-        {% if row.recording %}
-          [<a target="_parent" href="{{row.recording}}" style="font-size: 80%;text-decoration: underline;">Recording</a>]
+        {% if row.slides %}
+          [<a target="_parent" href="{{site.url}}{{row.class}}" style="font-size: 80%;">Class Notes</a>]
         {% endif %}
         {% if row.slides %}
           [<a target="_parent" href="{{site.url}}{{row.slides}}" style="font-size: 80%;">Slides</a>]
+        {% endif %}
+        {% if row.recording %}
+          [<a target="_parent" href="{{row.recording}}" style="font-size: 80%;text-decoration: underline;">Recording</a>]
         {% endif %}
       </td>
       <td> 
