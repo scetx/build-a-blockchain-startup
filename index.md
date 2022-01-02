@@ -39,3 +39,6 @@ Course coordinator
 ### [Sehyun Chung](https://www.linkedin.com/in/manan-bhargava/)
 Managing Director, [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/)<br>
 Co-Head Of Education, [Blockchain at Berkeley](https://blockchain.berkeley.edu/)
+
+### [Jocelyn Weber](https://www.linkedin.com/in/jocelynweberphipps/)
+Director, X-Labs & [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/)
