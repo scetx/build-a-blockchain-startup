@@ -1,6 +1,7 @@
 ---
-layout: home-page
-title: "Build a Blockchain Startup: Decentralized Application (dApp) Development and Entrepreneurship"
+layout: title-page
+title: "Build a Blockchain Startup"
+subtitle: "Decentralized Application (dApp) Development and Entrepreneurship"
 ---
 
 
@@ -36,7 +37,7 @@ Course coordinator
 
 ## Special Thanks
 
-### [Sehyun Chung](https://www.linkedin.com/in/manan-bhargava/)
+### [Sehyun Chung](https://www.linkedin.com/in/sehyun-chung/)
 Managing Director, [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/)<br>
 Co-Head Of Education, [Blockchain at Berkeley](https://blockchain.berkeley.edu/)
 

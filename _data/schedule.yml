@@ -17,93 +17,102 @@
 #     - name: Confidential Transactions
 #       link: https://elementsproject.org/features/confidential-transactions/investigation
 
-- date: 01/18
-  topic: Introduction to Blockchain Technology
+- date: 01/18/22
+  topic: Class Welcome and Overview
   recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31 
   slides: /assets/slides/01-intro.pdf
+  class: /class/00-welcome
   reading:
     - name: Some Things
       file: /assets/files/things.pdf
     - name: Other Things
       link: https://github.com
 
-- date: 01/20
-  topic: TBD
+- date: 01/20/22
+  topic: TBA
 
-- date: 01/25
-  topic: TBD
+- date: 01/25/22
+  topic: Introduction to Web3 Technologies
+  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31 
+  slides: /assets/slides/01-intro.pdf
+  class: /class/01-into-web3-tech
+  reading:
+    - name: Review Class Resources
+      link: /resources
+    - name: Other Things
+      link: https://github.com
 
-- date: 01/27
+- date: 01/27/22
   topic: Ideation Gala w/ B@B 
 
-- date: 02/1
-  topic: TBD
+- date: 02/1/22
+  topic: TBA
 
-- date: 02/3
-  topic: TBD
+- date: 02/3/22
+  topic: TBA
 
-- date: 02/8
-  topic: TBD
+- date: 02/8/22
+  topic: TBA
 
-- date: 02/15
+- date: 02/15/22
   topic: "ETHDenver: Choose your Adventure!"
 
-- date: 02/18
-  topic: TBD
+- date: 02/18/22
+  topic: TBA
 
-- date: 02/22
-  topic: TBD
+- date: 02/22/22
+  topic: TBA
 
-- date: 02/25
-  topic: TBD
+- date: 02/25/22
+  topic: TBA
 
-- date: 03/1
-  topic: TBD
+- date: 03/1/22
+  topic: TBA
 
-- date: 03/3
-  topic: TBD
+- date: 03/3/22
+  topic: TBA
 
-- date: 03/8
-  topic: TBD
+- date: 03/8/22
+  topic: TBA
 
-- date: 03/10
-  topic: TBD
+- date: 03/10/22
+  topic: TBA
 
-- date: 03/15
-  topic: TBD
+- date: 03/15/22
+  topic: TBA
 
-- date: 03/17
-  topic: TBD
+- date: 03/17/22
+  topic: TBA
 
-- date: 03/22
+- date: 03/22/22
   topic: "SPRING BREAK!"
 
-- date: 03/24
+- date: 03/24/22
   topic: "SPRING BREAK!"
 
-- date: 03/29
-  topic: TBD
+- date: 03/29/22
+  topic: TBA
 
-- date: 03/31
-  topic: TBD
+- date: 03/31/22
+  topic: TBA
 
-- date: 04/5
-  topic: TBD
+- date: 04/5/22
+  topic: TBA
 
-- date: 04/7
-  topic: TBD
+- date: 04/7/22
+  topic: TBA
 
-- date: 04/11
-  topic: TBD
+- date: 04/11/22
+  topic: TBA
 
-- date: 04/18
-  topic: TBD
+- date: 04/18/22
+  topic: TBA
 
-- date: 04/21
-  topic: TBD
+- date: 04/21/22
+  topic: TBA
 
-- date: 04/25
-  topic: TBD
+- date: 04/25/22
+  topic: TBA
 
-- date: 04/28
-  topic: TBD
+- date: 04/28/22
+  topic: TBA

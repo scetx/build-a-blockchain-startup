@@ -34,4 +34,4 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Browse to <http://localhost:4000> -- this should live reload on file changes :grin:
+Browse to <http://localhost:4000> -- reolad the page after a few seconds to check after file changes.

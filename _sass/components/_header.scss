@@ -16,11 +16,22 @@
   @include fs--title;
   color: $c__white;
 
-  &:after {
-    margin-left: .5rem;
+  // &:after {
+  //   margin-left: .5rem;
+  //   color: rgba(#fff, .5);
+  //   content: '¬';
+  // }
+
+  span {
     color: rgba(#fff, .5);
-    content: '¬';
   }
+}
+
+.c-header__subtitle {
+  position: relative;
+  @include ff--mono(500);
+  @include fs--heading-2;
+  color: $c__white;
 
   span {
     color: rgba(#fff, .5);
