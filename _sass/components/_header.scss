@@ -14,7 +14,7 @@
   position: relative;
   @include ff--mono(500);
   @include fs--title;
-  color: $c__white;
+  color: $c__off-white;
 
   // &:after {
   //   margin-left: .5rem;
@@ -31,7 +31,7 @@
   position: relative;
   @include ff--mono(500);
   @include fs--heading-2;
-  color: $c__white;
+  color: $c__off-white;
 
   span {
     color: rgba(#fff, .5);

@@ -1,9 +1,10 @@
 ---
-layout: title-page
+layout: page
 title: Schedule
 permalink: /schedule/
 ---
 
+# Schedule
 
 <table style="table-layout: fixed; font-size: 80%;">
   <thead>

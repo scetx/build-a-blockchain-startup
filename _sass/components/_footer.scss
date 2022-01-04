@@ -9,6 +9,7 @@
   width: 100%;
   height: 300px;
   background: $c__light-grey;
+  color: $c__off-white;
 
   p {
     @include fs--meta;

@@ -14,11 +14,11 @@
   padding-bottom: 7.5rem;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
+  color: $c__off-white;
   @include fs--body;
 
   > * {
     margin-bottom: 1.8rem;
-    color: rgba($c__black, .7);
   }
 
   a:not(.c-btn) {

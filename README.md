@@ -40,6 +40,6 @@ Browse to <http://localhost:4000> -- reolad the page after a few seconds to chec
 
 ```bash
 # From this site's working directory:
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build --destination ./docs
 # make a PR that have the `_site` files updated, they automatically get published once merged in to `main`
 ```
