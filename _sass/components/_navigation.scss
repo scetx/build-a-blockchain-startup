@@ -34,7 +34,7 @@
   padding-bottom: 2.5rem;
   @include ff--mono(500);
   @include fs--meta;
-  color: $c__white;
+  color: $c__off-white;
   text-transform: uppercase;
 
   &:not(:last-of-type) {
@@ -54,6 +54,6 @@
 
   &:hover:after,
   &.is-active:after {
-    background: $c__white;
+    background: $c__off-white;
   }
 }
