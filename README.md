@@ -35,3 +35,11 @@ bundle exec jekyll serve
 ```
 
 Browse to <http://localhost:4000> -- reolad the page after a few seconds to check after file changes.
+
+## Deploy to gh-pages
+
+```bash
+# From this site's working directory:
+bundle exec jekyll build
+# make a PR that have the `_site` files updated, they automatically get published once merged in to `main`
+```
