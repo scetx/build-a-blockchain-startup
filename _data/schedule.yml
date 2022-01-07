@@ -19,7 +19,7 @@
 
 - date: 01/18/22
   topic: Class Welcome and Overview
-  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31 
+  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31
   slides: /assets/slides/01-intro.pdf
   class: /class/00-welcome
   reading:
@@ -29,11 +29,11 @@
       link: https://github.com
 
 - date: 01/20/22
-  topic: TBA
+  topic: Welcome to Entrepreneurship
 
 - date: 01/25/22
   topic: Introduction to Web3 Technologies
-  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31 
+  recording: https://youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31
   slides: /assets/slides/01-intro.pdf
   class: /class/01-into-web3-tech
   reading:
@@ -43,43 +43,46 @@
       link: https://github.com
 
 - date: 01/27/22
-  topic: Ideation Gala w/ B@B 
+  topic: Ideation Gala w/ B@B
 
 - date: 02/1/22
-  topic: TBA
+  topic: TBD
 
 - date: 02/3/22
-  topic: TBA
+  topic: The Team and Its Players
 
 - date: 02/8/22
   topic: TBA
+
+- date: 02/10/22
+  topic: The Idea & Opportunity
 
 - date: 02/15/22
   topic: "ETHDenver: Choose your Adventure!"
 
 - date: 02/18/22
-  topic: TBA
+  topic: The Idea & Opportunity 2
 
 - date: 02/22/22
   topic: TBA
 
 - date: 02/25/22
-  topic: TBA
+  topic: The Value
 
 - date: 03/1/22
   topic: TBA
 
 - date: 03/3/22
-  topic: TBA
+  topic: User Validation
 
 - date: 03/8/22
   topic: TBA
 
 - date: 03/10/22
-  topic: TBA
+  topic: Prototyping and Validation
 
 - date: 03/15/22
-  topic: TBA
+  topic: Business and Revenue Models
 
 - date: 03/17/22
   topic: TBA
@@ -94,25 +97,28 @@
   topic: TBA
 
 - date: 03/31/22
-  topic: TBA
+  topic: Going to Market
 
 - date: 04/5/22
   topic: TBA
 
 - date: 04/7/22
-  topic: TBA
+  topic: Going to Market 2
 
 - date: 04/11/22
   topic: TBA
+
+- date: 04/14/22
+  topic: Pitching and Storytelling
 
 - date: 04/18/22
   topic: TBA
 
 - date: 04/21/22
-  topic: TBA
+  topic: Investment and Growth
 
 - date: 04/25/22
   topic: TBA
 
 - date: 04/28/22
-  topic: TBA
+  topic: Legal, IP, and Finance

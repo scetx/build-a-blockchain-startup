@@ -1,5 +1,5 @@
 # Site settings
-# If you look in the HTML files, you will see variables here accessed via 
+# If you look in the HTML files, you will see variables here accessed via
 # {{ site.title }}, {{ site.url }}, and so on.
 # You can create any custom variable you would like, and they will be
 # accessible in the templates via {{ site.myvariable }}.
@@ -20,9 +20,9 @@ githubRepo: https://github.com/timg512372/dapp-course-website/
 # Build settings
 # markdown: kramdown
 
-fixedNav: 'true'
+fixedNav: "true"
 
 include: [_pages]
-exclude: [_site, LICENSE, README.md]
+exclude: [_site, LICENSE, README.md, vendor]
 sass:
   style: compressed
