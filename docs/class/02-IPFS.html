@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html class="t-grey">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    IPFS Workshop
+  </title>
+  <meta
+    name="description"
+    content="Write a description here. It will appear in your document head meta (for Google search results).
+"
+  />
+
+  <link rel="stylesheet" href="/css/main.css" />
+  <link
+    rel="canonical"
+    href="http://example.com/class/02-IPFS"
+  />
+</head>
+  <body>
+    <nav class="c-navigation is-fixed">
+  <div class="c-navigation__container u-container">
+    <a class="c-navigation__item " href="/">Home</a>
+    <a class="c-navigation__item " href="/schedule/">Schedule</a>
+    <!-- <a class="c-navigation__item " href=" /class/">Classes</a> -->
+    <a class="c-navigation__item " href="/resources/">Resources</a>
+  </div>
+</nav>
+
+
+    <article class="c-article">
+  <header class="c-header c-article__header">
+    <div class="u-container">
+      <h1 class="c-header__title">IPFS Workshop</h1>
+      <h2 class="c-header__subtitle"></h2>
+    </div>
+  </header>
+
+  <div class="c-article__main">
+    <!-- IPFS CIDs for websites can be found via: https://docs.ipfs.io/concepts/dnslink/ -->
+
+<p>An introduction to IPFS via the Desktop application.
+<em>Ideal for those new to IPFS.</em>
+<strong>Following along from the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a></strong></p>
+
+<hr />
+
+<h2 id="install-ipfs-desktop">Install IPFS Desktop</h2>
+
+<p>Now is the time to get IPFS Desktop! Instructions are available for Linux, Mac and Windows:</p>
+
+<h4 id="httpsdocsipfsioinstallipfs-desktop"><a href="https://docs.ipfs.io/install/ipfs-desktop">https://docs.ipfs.io/install/ipfs-desktop</a></h4>
+
+<hr />
+
+<h2 id="import-and-serve-a-file-via-a-local-ipfs-node">Import and Serve a File via a Local IPFS Node</h2>
+
+<p>Let’s all use the <em><strong>same file</strong></em> to start:</p>
+
+<p>The <a href="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"><b>B@B Logo</b></a>:
+<br /></p>
+<center>
+<img width="250px" src="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png" /> 
+<br />
+</center>
+
+<p>Right Click and download (“save link as…”) the image above, so we can play together!</p>
+
+<hr />
+
+<h2 id="open-ipfs-desktop-and-import-files-to-your-node">Open IPFS Desktop and Import Files to your Node</h2>
+
+<p>Navigate to the “Files tab” and hit “+Import” and select the <code class="language-plaintext highlighter-rouge">blockchain-at-berkeley.png</code> file we just downloaded.</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>After you import…</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>You should see the file has a funny subtitle starting with <code class="language-plaintext highlighter-rouge">Qm...</code> - <strong>This is the CID of the file!</strong> 
+Let’s take a deeper look at this file by <strong>inspecting it</strong></p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>Here we can see that this file is very small (8 KB) and thus all the data for it can be contained in <strong>just one chunk</strong>! Our <code class="language-plaintext highlighter-rouge">Object</code> has all the <code class="language-plaintext highlighter-rouge">Buffer</code> data it needs to reconstruct the file directly.</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<hr />
+
+<h2 id="view-your-file-on-your-nodes-gateway">View Your file on Your Node’s Gateway</h2>
+
+<p>Now that <strong><em>your</em></strong> node has a copy of this file, we can view it via our <strong>local IPFS gateway</strong> - this is a <strong>HTTP server for IPFS</strong>. So we can use this <em>webpage</em> to interact with IPFS!</p>
+
+<p>IPFS-desktop will, by default, bind the gateway to <code class="language-plaintext highlighter-rouge">http://localhost:8080/</code> on our local machine. We can query IPFS content by CID through the desktop interface</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>Notice the URL (one of two versions, both are the same with different <em>encodings</em> of the CID):</p>
+<ul>
+  <li><a href="http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E">http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E</a></li>
+  <li><a href="http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/">http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/</a></li>
+</ul>
+
+<p>This tells us that we are in fact looking up via <em>our local machine (127.0.0.1 or localhost)</em> and querying for <strong>data with a given IPFS CID</strong> of the (preferred, newer format) format <code class="language-plaintext highlighter-rouge">http://&lt;YOUR-CIDv1-HERE&gt;.localhost:8080/</code></p>
+
+<hr />
+
+<h2 id="ask-another-peer-to-retrieve-your-file">Ask Another Peer to Retrieve Your File</h2>
+
+<p>We can ask <em>another</em> IPFS node out on the wild web if they can see it! There are many <strong>public</strong> <a href="https://docs.ipfs.io/concepts/ipfs-gateway/#overview"><strong>IPFS gateways</strong></a> that our fine friends host, and can be <a href="https://ipfs.github.io/public-gateway-checker/">found here</a>.</p>
+
+<p>Let’s see what we find if we ask the https://ipfs.io gateway to retrieve our file’s CID. In much the same way, we just need to specify the right CID to retrieve:</p>
+
+<ul>
+  <li>https://ipfs.io/ipfs/QmPHruLBfdnqMDh1emvVZY7UdK5ShLrLi5qtFnA2x27Q1M</li>
+  <li>https://bafybeiaoes5vkw53bmxh7iw62ml2t36zjqgtlwh3o2odzonqbeyhpknhoa.ipfs.dweb.link/</li>
+</ul>
+
+<p>Open up those links and see what you get!</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>Sweet! The file is found by the ipfs.io <em>and</em> dweb.link nodes via <em>different encodings <strong>and</strong> different methods!! This confirms that not _just our local node</em> knows about this file - our peers can get it too!! And in a <em>various of ways</em>.</p>
+
+<p><strong><em>Notice we didn’t upload this file anywhere! The IPFS network was able to retrieve it from OUR NODE!!!</em></strong></p>
+
+<p>… well kinda… this is a bit of a silly example: the file you downloaded above came <em>directly from this IPFS gateway to begin with (check the link URL above WHERE WE DOWNLOADED IF FROM)</em>.
+What it <em>does</em> show is that you got the exact same CID for the same file.</p>
+
+<p>!!! <strong>This is an important note:</strong></p>
+<ul>
+  <li>We know that our node chucked, and served the example file just as any other IPFS node would.</li>
+  <li>This also means <strong>our node is now (by default) also willing to serve this file (and it’s chunks)</strong>
+    <ul>
+      <li>This is not only via our gateway, but directly through Peer-to-Peer (P2P) communication between other IPFS nodes!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>So by following along here - you just advertized your node (by your <em>peer ID</em>) to other nodes you are connected to that you have and will share this data … if they ask nicely ;)</p>
+
+<hr />
+
+<h2 id="peer-connections-and-data-sharing">Peer Connections and Data Sharing</h2>
+
+<p>What?! You mean to say that I already am sharing this data with many different people all over the world from my node? <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p><strong>YES</strong></p>
+
+<p>You can see a list of the peers that you are directly connected to on the <code class="language-plaintext highlighter-rouge">Peers</code> tab:</p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>Without going into the weeds on the details of <em>how</em> your node goes about sharing and finding data on the IPFS network (but you totally can <a href="httpshttps://docs.ipfs.io/concepts/dht/">here</a> after the workshop) we experiment with <strong>asking your peers for some data directly</strong>.</p>
+
+<p>We don’t need for a gateway (a <strong>single</strong> node out there somewhere) to gather all the chucks we need for some data - we can ask our peers for them!</p>
+
+<hr />
+
+<h2 id="request-content-via-cid">Request content via CID</h2>
+
+<p>On any IPFS Desktop tab, at the top, you will see a search bar. Go ahead an put this CID into it:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Qmdgqdddt3F2uszEaE7zph7kXbwHX3iTDCWeQjdtNGnQgz</code></p>
+
+<p>You will likely need to <em>download</em> this file if no preview is available. Note the proper extension for the file is <code class="language-plaintext highlighter-rouge">.jpeg</code> (it may not come with one or the wrong <code class="language-plaintext highlighter-rouge">.txt</code> extension, so add/change it if so)</p>
+
+<p>What do ya see when you <strong>open this file</strong>???</p>
+
+<p><em>NOTICE: No DNS or HTTP required! This was found directly on the IPFS network! The CID was all we needed - not a URL!</em></p>
+
+<p>This fine photo is from a set of Apollo program photos and happens to be famous - you seen it before? This is one of many that are available on IPFS!</p>
+
+<p>Wouldn’t it be awesome if you could browse <strong>a website album</strong> of all these <em>on IPFS</em>?<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p><strong>YOU CAN!</strong></p>
+
+<hr />
+
+<h2 id="browse-ipfs-static-website-content">Browse IPFS Static Website content</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Static_web_page">Static Websites</a> are, as the name implies, consisting of <em>unchaining data</em>. There is no need for a backend server somewhere that must <em>construct</em> some data <em>dynamically</em> every time we want to view or use a web application.</p>
+
+<p>Static sites are just a set of HTML, CSS, and JS files… <strong>so once created, we can <em>host</em> static sites on IPFS!!</strong></p>
+
+<p>To see this in action, the let’s checkout a static web album <strong>with our IPFS Desktop app open (so our node is running)</strong>, click here:</p>
+
+<h3 id="apollo-photo-archive"><a href="http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/frontend/frontend.html">Apollo Photo Archive</a></h3>
+
+<p><strong>Notice the URL… <em>its local!</em></strong></p>
+
+<p>FIXME – SCREENSHOT NEEDED</p>
+
+<p>So… our node behind the scenes looked up a CID and from this was able to construct the site… <strong>locally</strong>. Our peers delivered the content, and now we can browse the site… <strong>even offline</strong> (if we pin the site to our node) and will share the site’s content with any peers that ask for it!</p>
+
+<p><em>By using and IPFS node to pin static websites, you are acting as a server for some or all of the content for the site on IPFS!</em></p>
+
+<p>…</p>
+
+<p>So what if I wanna <strong><em>publish an IPFS website</em></strong> and have others help share it and keep it alive… even when my node is offline?</p>
+
+<h3 id="back-to-the-workshop-slides-for-more"><em>Back to the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a> for more!</em></h3>
+
+<!-- ---
+
+## Future content...
+
+TODO
+
+Static Website Deployment 
+1. manually locally
+2. via a pinning service (pinata)
+3. via Fleek
+
+
+Use-case examples:
+* Serverful infrastructure - when everything is a server
+* Local first collaboration - disconnected subnet, airplanes
+* Censorship resistance - contextual threat models
+* DDOS resistance -
+* Service EOL - business dies, is bought+closed -->
+
+<hr />
+
+<h2 id="footnotes"><em>Footnotes</em></h2>
+
+<!-- auto generated from above -->
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>By default, yes. Only if you <a href="https://docs.ipfs.io/how-to/pin-files/"><strong>pin</strong></a> this data (file upload does this automatically). But this data will only be shared if other peers know the CIDs for content you hold and request it. And only if your machine is on a network that can connect <em>out to other peers</em> - and many firewalls and NATs don’t always play nice with this. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Here is the <em>same</em> photo in the Apollo archive album: http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+</article>
+
+    <footer class="c-footer">
+  <div class="u-container c-footer__container">
+    <p>&copy; UC Berkeley SCET 2022</p>
+      <img src="/assets/images/UCBerkeley_wordmark_gold.png" alt="UCB-Logo" width="8%">
+    <p>
+      <a target="_blank" href="https://scet.berkeley.edu/students/courses/advanced-topics/decentralized-application-dapp-development-and-entrepreneurship/">Website</a>
+      <a target="_blank" href="https://github.com/timg512372/dapp-course-website/">Github</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
