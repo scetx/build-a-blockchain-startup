@@ -7,7 +7,7 @@
 }
 
 .c-article__main {
-  max-width: 76rem; // 760px;
+  max-width: 80rem; // 800px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 7.5rem;
@@ -29,10 +29,23 @@
     margin-left: -2.5rem;
     width: calc(100% + 5rem);
     padding: 2.5rem;
-    background: $c__light-grey;
   }
 
-  ul, ol {
-    margin-left: 40px;
+  table, th {
+	border: 1px solid $c__grey;
+	border-collapse: collapse;
+	text-align:center;
   }
+
+  td {
+	border: 1px dashed $c__grey;
+	text-align:center;
+
+	ul {
+		padding-left: 20px;
+		text-align:left;
+		font-size: 90%;
+	}
+  }
+  
 }
