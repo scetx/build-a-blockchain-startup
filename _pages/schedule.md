@@ -19,8 +19,8 @@ permalink: /schedule/
       <td> {{ row.date }} </td>
       <td> {{ row.topic }} 
         <br>
-        {% if row.class %} <!-- Expects an INTERNAL URL -->
-          [<a href="{{site.url}}{{row.class}}" style="font-size: 80%;">Class Notes</a>]
+        {% if row.page %} <!-- Expects an INTERNAL URL -->
+          [<a href="{{site.url}}{{row.page}}" style="font-size: 80%;">Class Notes</a>]
         {% endif %}
         {% if row.slides %} <!-- Expects an EXTERNAL URL -->
           [<a target="_blank" href="{{row.slides}}" style="font-size: 80%;">Slides</a>]

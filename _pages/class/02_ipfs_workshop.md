@@ -1,6 +1,6 @@
 ---
 layout: title-page
-title: "IPFS Desktop Demo"
+title: "IPFS Workshop"
 permalink: /class/02-IPFS
 ---
 
