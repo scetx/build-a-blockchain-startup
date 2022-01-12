@@ -59,6 +59,6 @@ Alternatives/supplements (shorter and a bit more approachable than computerfile 
 
 Any additions/removals/updates/edits are quite welcome from _anyone_!
 
-Please suggest more things to add by [opening a PR here](https://github.com/timg512372/dapp-course-website/blob/gh-pages/_pages/resources.md)
+Please suggest more things to add by [opening a PR here](https://github.com/scetx/build-a-blockchain-startup/blob/main/_pages/resources.md)
 
 *The **style** here is in accordance with [🕶️ awesome lists](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) for contributions.*
