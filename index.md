@@ -25,7 +25,7 @@ Blockchain platforms include Polkadot (created by the co-inventor of Ethereum, G
 Co-instructor: Development Focus
 Classes: Tuesdays 6.30pm - 8pm PST
 
-### [Tomasso Di Bartolo](https://www.linkedin.com/in/tommasodibartolo/)
+### [Tommaso Di Bartolo](https://www.linkedin.com/in/tommasodibartolo/)
 
 Co-instructor: Entrepreneurship Focused
 Classes: Thursdays 6.30pm - 8pm PST
