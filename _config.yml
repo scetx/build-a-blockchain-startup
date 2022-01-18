@@ -5,7 +5,8 @@
 # accessible in the templates via {{ site.myvariable }}.
 title: Build a Blockchain Startup
 subtitle: Decentralized Application (dApp) Development and Entrepreneurship
-institution: UC Berkeley SCET
+copyright: UC Berkeley SCET
+copyright-website: https://scet.berkeley.edu/
 course: INDENG 190E-002/290-002
 description: > # this means to ignore newlines until "baseurl:"
   Write a description here.
@@ -23,6 +24,6 @@ githubRepo: https://github.com/scetx/build-a-blockchain-startup/
 fixedNav: "true"
 
 include: [_pages]
-exclude: [_site, LICENSE, README.md, vendor]
+exclude: [_site, LICENSE, README.md, vendor, Gemfile, Gemfile.lock]
 sass:
   style: compressed

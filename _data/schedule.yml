@@ -1,6 +1,6 @@
 - date: 01/18/22
   topic: Class Welcome and Overview
-  page: /class/00-welcome
+  # page: /class/00-welcome
   slides:
   material:
     - name: 📰 Self-guided Overview of Class Resources
@@ -14,8 +14,8 @@
 
 - date: 01/25/22
   topic: Introduction to Web3 Technologies
-  page: /class/01-into-web3-tech
-  slides: https://docs.google.com/presentation/d/10iukOE6KKXSQDiVnxfOT4kdNVx0QPIWj9UESYhkryQc/
+  # page: /class/01-into-web3-tech
+  # slides: https://docs.google.com/presentation/d/10iukOE6KKXSQDiVnxfOT4kdNVx0QPIWj9UESYhkryQc/
   material:
     - name: 📺 Watch *all* Cryptography Videos
       link: /resources/#cryptography
@@ -28,8 +28,8 @@
 
 - date: 02/1/22
   topic: IPFS Workshop
-  page: /class/02-IPFS
-  slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
+  # page: /class/02-IPFS
+  # slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
   material:
     - name: 📺 Watch *all* Cryptography Videos
       link: /resources/#cryptography
