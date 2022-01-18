@@ -1,10 +1,19 @@
 <footer class="c-footer">
   <div class="u-container c-footer__container">
     <p>&copy; {{ site.institution }} {{ site.time | date: '%Y' }}</p>
-      <img src="/assets/images/UCBerkeley_wordmark_gold.png" alt="UCB-Logo" width="8%">
+    <img
+      src="assets/images/UCBerkeley_wordmark_gold.png"
+      alt="UCB-Logo"
+      width="8%"
+    />
     <p>
-      {% if site.website %}<a target="_blank" href="{{ site.website }}">Website</a>{% endif %}
-      {% if site.githubRepo %}<a target="_blank" href="{{ site.githubRepo }}">Github</a>{% endif %}
+      {% if site.website %}<a target="_blank" href="{{ site.website }}"
+        >Website</a
+      >{% endif %} {% if site.githubRepo %}<a
+        target="_blank"
+        href="{{ site.githubRepo }}"
+        >Github</a
+      >{% endif %}
     </p>
   </div>
 </footer>
