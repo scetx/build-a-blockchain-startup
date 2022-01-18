@@ -2,6 +2,7 @@
 layout: title-page
 title: "Build a Blockchain Startup"
 subtitle: "Decentralized Application (dApp) Development and Entrepreneurship"
+permalink: /
 ---
 
 **_Advanced Topics in Entrepreneurship & Innovation_**<br>
