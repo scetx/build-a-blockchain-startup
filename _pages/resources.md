@@ -44,9 +44,10 @@ By the most granular geo-location (town -> country) or demographic (online group
 
 ##### UC Berkeley
 
-- [Alchemy Developer Resources](https://alchemy.com/?a=berkeley) - Sign up for exclusive university developer accounts
 - [Berkeley Blockchain Ecosystem Resources](https://berkeleyblockchain.notion.site/) - Collection of all blockchain resources on campus
 - [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/) - World-class non-dilutive support for blockchain startups
+- [Blockchain at Berkeley Twitter](https://twitter.com/CalBlockchain) - Follow for governance insights and club events!
+
 - [Center for Responsible Decentralized Intelligence](https://rdi.berkeley.edu/)
 - [Haas Blockchain Initiative](https://haas.berkeley.edu/blockchain/)
 - [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/programs)
@@ -207,6 +208,19 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 - [https://en.wikipedia.org/wiki/Secure_by_design](https://en.wikipedia.org/wiki/Secure_by_design)
 - [https://en.wikipedia.org/wiki/Trusted_Computing](https://en.wikipedia.org/wiki/Trusted_Computing)
 - [https://tokenengineeringcommunity.github.io/website/](https://tokenengineeringcommunity.github.io/website/)
+
+## Blockchain Developer Resources
+
+### Alchemy
+
+- [Alchemy University Accounts](https://alchemy.com/?a=berkeley) - Sign up for exclusive university developer accounts
+
+### Algorand
+
+- [Algorand Resource Kit](https://docs.google.com/document/d/1qB-c7zWXSQ8tS7Lk4xz_suZ248SpirAQSpJGz61wsjA/edit)
+- [Algorand Tutorial](https://github.com/algorandfoundation/buildweb3)
+- [Algorand Website](https://algorand.foundation/)
+- [Project Ideas](https://docs.google.com/document/d/1XnrpvgM5a35cNuQ_lp-lYGvfzyCtwUCHsA1U6xOGo3A/edit) - Might be outdated; use with care!
 
 # Further Resources on Related Topics:
 
