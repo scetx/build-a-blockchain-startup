@@ -44,7 +44,12 @@ By the most granular geo-location (town -> country) or demographic (online group
 
 ##### UC Berkeley
 
-- {add some!}
+- [Alchemy Developer Resources](https://alchemy.com/?a=berkeley) - Sign up for exclusive university developer accounts
+- [Berkeley Blockchain Ecosystem Resources](https://berkeleyblockchain.notion.site/) - Collection of all blockchain resources on campus
+- [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/) - World-class non-dilutive support for blockchain startups
+- [Center for Responsible Decentralized Intelligence](https://rdi.berkeley.edu/)
+- [Haas Blockchain Initiative](https://haas.berkeley.edu/blockchain/)
+- [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/programs)
 
 #### Colorado
 
