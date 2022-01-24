@@ -17,10 +17,12 @@
       link: https://www.ycombinator.com/library/6s-how-to-lead
     - name: 📜 Team Building without Time Wasting
       link: https://hbr.org/2007/10/team-building-without-time-was
+    - name: "📺 Assignment explained: Value and Behavior"
+      link: https://www.loom.com/share/e2387019e3c943be90381ed08a1e1853
 
 - date: 01/25/22
   topic: Introduction to Web3 Technologies
-  # page: /class/01-into-web3-tech
+  page:
   slides: https://docs.google.com/presentation/d/10iukOE6KKXSQDiVnxfOT4kdNVx0QPIWj9UESYhkryQc/
   material:
     - name: 📺 Watch *all* Cryptography Videos
@@ -31,12 +33,18 @@
 
 - date: 01/27/22
   topic: The Idea & Opportunity (1)
+  page:
+  slides:
+  material:
+  recording:
 
 - date: 02/1/22
-  topic: IPFS Workshop
-  # page: /class/02-IPFS
-  # slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
-  material:
+  topic: Team Building Event with B@B
+  page:
+  slides:
+  material: 
+    - name: 🥳 Eventbrite Link to RSVP
+      link: https://www.eventbrite.com/manage/events/254315473427/basicinfo
   recording:
 
 - date: 02/3/22
@@ -47,9 +55,9 @@
   recording:
 
 - date: 02/8/22
-  topic: TBA
-  page:
-  slides:
+  topic: IPFS Workshop
+  # page: /class/02-IPFS
+  # slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
   material:
   recording:
 
