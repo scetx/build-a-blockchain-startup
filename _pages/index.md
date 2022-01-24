@@ -21,31 +21,36 @@ Blockchain platforms include Polkadot (created by the co-inventor of Ethereum, G
 
 ## Team
 
+<img src="./assets/images/Dan-dApp-Eng-yellow.png" alt="Dan" width="100" height="100" />
 ### [Dan Shields](https://www.linkedin.com/in/danwshields/)
 
 Co-instructor: Development Focus
 Classes: Tuesdays 6.30pm - 8pm PST
 
+<img src="./assets/images/Tommaso-dApp-Eng-blue.png" alt="Tommaso" width="100" height="100" />
 ### [Tommaso Di Bartolo](https://www.linkedin.com/in/tommasodibartolo/)
 
 Co-instructor: Entrepreneurship Focused
 Classes: Thursdays 6.30pm - 8pm PST
 
-### [Timothy Guo](https://www.linkedin.com/in/timothy-guo-94507016a/)
-
+<img src="./assets/images/Tim-dApp-Eng-yellow.jpg" alt="Tim" width="100" height="100" />
+### [Timothy Guo](https://www.linkedin.com/in/timothy-guo-94507016a/) 
 GSI
 
+<img src="./assets/images/Manan-dApp-End-yellow.png" alt="Manan" width="100" height="100" />
 ### [Manan Bhargava](https://www.linkedin.com/in/manan-bhargava/)
 
-Course coordinator
+Course Coordinator
 
 ## Special Thanks
 
+<img src="./assets/images/Sehyun-dApp-Eng-yellow.png" alt="Sehyun" width="100" height="100" />
 ### [Sehyun Chung](https://www.linkedin.com/in/sehyun-chung/)
 
 Managing Director, [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/)<br>
 Co-Head Of Education, [Blockchain at Berkeley](https://blockchain.berkeley.edu/)
 
+<img src="./assets/images/jocelyn-dApp-Eng-red.png" alt="Jocelyn" width="100" height="100" />
 ### [Jocelyn Weber](https://www.linkedin.com/in/jocelynweberphipps/)
 
 Director, X-Labs & [Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/)
