@@ -59,4 +59,3 @@ permalink: /schedule/
     {% endfor %}
   </tbody>
 </table>
-

@@ -3,7 +3,6 @@
    ========================================================================== */
 
 .c-article {
-
 }
 
 .c-article__main {
@@ -31,21 +30,21 @@
     padding: 2.5rem;
   }
 
-  table, th {
-	border: 1px solid $c__grey;
-	border-collapse: collapse;
-	text-align:center;
+  table,
+  th {
+    border: 1px solid $c__grey;
+    border-collapse: collapse;
+    text-align: center;
   }
 
   td {
-	border: 1px dashed $c__grey;
-	text-align:center;
+    border: 1px dashed $c__grey;
+    text-align: center;
 
-	ul {
-		padding-left: 20px;
-		text-align:left;
-		font-size: 90%;
-	}
+    ul {
+      padding-left: 20px;
+      text-align: left;
+      font-size: 90%;
+    }
   }
-  
 }
