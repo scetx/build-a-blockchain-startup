@@ -1,9 +1,7 @@
 # Ignore build/dev artifacts:
-.cache
-node_modules
-public
-package.json
-package-lock.json
+docs
+Gemfile
+Gemfile.lock
 
 # Ignore files that don't need *text* formatting
 assets
