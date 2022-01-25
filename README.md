@@ -1,4 +1,5 @@
 # Build a Blockchain Startup
+
 ## Decentralized Application (dApp) Development and Entrepreneurship
 
 Spring 2022
@@ -12,6 +13,7 @@ Based on the [Material Jekyll Theme](https://github.com/alexcarpenter/material-j
 https://jekyllrb.com/docs/
 
 ### Ubuntu
+
 https://www.ruby-lang.org/en/documentation/installation/#apt
 
 ```bash
@@ -20,7 +22,7 @@ sudo gem update --system
 ```
 
 > https://github.com/rubygems/rubygems/issues/3269#issuecomment-761600508
-> You can ignore that ruby & gems are not the latest release. 
+> You can ignore that ruby & gems are not the latest release.
 
 ```bash
 sudo gem install jekyll bundler
