@@ -17,7 +17,7 @@ permalink: /schedule/
     {% for row in site.data.schedule %}
     <tr>
       <td> {{ row.date }} </td>
-      <td> {{ row.topic }} 
+      <td> {{ row.topic }}
         <br>
         {% if row.page %} <!-- Expects an INTERNAL URL -->
           [<a href="{{site.url}}{{row.page}}" style="font-size: 80%;">Class Notes</a>]
@@ -29,12 +29,12 @@ permalink: /schedule/
           [<a target="_blank" href="{{row.recording}}" style="font-size: 80%;text-decoration: underline;">Recording</a>]
         {% endif %}
       </td>
-      <td> 
+      <td>
         {% if row.material %} <!-- Handle an EXTERNAL or INTERNAL URL -->
         <ul>
           {% for r in row.material %}
             {% if r.file %} <!-- Expects an INTERNAL URL -->
-              {% assign material_link = site.url | append: r.file %}
+              {% assign material_link = site.url | append: site.baseurl | append: r.file %}
             {% endif %}
             {% if r.link %} <!-- Expects an EXTERNAL URL -->
               {% assign material_link = r.link %}
@@ -48,8 +48,8 @@ permalink: /schedule/
         </ul>
         {% endif %}
       </td>
-      <!-- <td> 
-        {% if row.quiz %} 
+      <!-- <td>
+        {% if row.quiz %}
           <a href="{{row.quiz.link}}" style="text-decoration: underline;">{{row.quiz.name}}</a>
         {% else %}
           None
