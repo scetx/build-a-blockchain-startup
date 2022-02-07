@@ -12,11 +12,23 @@ _Ideal for those new to IPFS._
 
 ---
 
+Before we begin, please:
+
 ## Install IPFS Desktop
 
 Now is the time to get IPFS Desktop! Instructions are available for Linux, Mac and Windows:
 
 #### <https://docs.ipfs.io/install/ipfs-desktop>
+
+## Optional: Sign up for a pinning service
+
+This is a cloud based IPFS node you can ["pin" IPFS content](https://docs.ipfs.io/how-to/pin-files/) on that will be available when your machine(s) are offline to teh rest of the IPFS network.
+Many exist! Here are a few:
+
+- <https://pinata.cloud> **Free accounts available!** - easy file storage for NFTs and more.
+- <https://fleek.co> - targeting websites on IPFS specifically with extra nice tooling for that.
+- <https://infura.io/docs/ipfs> - more dev focused with robust API integrations.
+- <https://www.kaleido.io/blockchain-platform/ipfs-file-store> - targeted for ["BaaS"](https://www.kaleido.io/product/overview#blockchain-as-a-service) full application deployments.
 
 ---
 
@@ -24,11 +36,11 @@ Now is the time to get IPFS Desktop! Instructions are available for Linux, Mac a
 
 Let's all use the _**same file**_ to start:
 
-The <a href="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"><b>B@B Logo</b></a>:
+The <a download href="{{ relBase }}../assets/images/dApp-Course-S22-black.png"><b>dApp Course Logo</b></a>:
 <br>
 
 <center>
-<img width="250px" src="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"> 
+<img width="250px" src="{{ relBase }}../assets/images/dApp-Course-S22-black.png">
 <br>
 </center>
 
@@ -51,7 +63,7 @@ Let's take a deeper look at this file by **inspecting it**
 
 FIXME -- SCREENSHOT NEEDED
 
-Here we can see that this file is very small (8 KB) and thus all the data for it can be contained in **just one chunk**! Our `Object` has all the `Buffer` data it needs to reconstruct the file directly.
+Here we can see that this file is very small (81 KB) and thus all the data for it can be contained in **just one chunk**! Our `Object` has all the `Buffer` data it needs to reconstruct the file directly.
 
 FIXME -- SCREENSHOT NEEDED
 
@@ -67,10 +79,10 @@ FIXME -- SCREENSHOT NEEDED
 
 Notice the URL (one of two versions, both are the same with different _encodings_ of the CID):
 
-- <http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E>
-- <http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/>
+- <http://127.0.0.1:8080/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5>
+- <http://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.localhost:8080/>
 
-This tells us that we are in fact looking up via _our local machine (127.0.0.1 or localhost)_ and querying for **data with a given IPFS CID** of the (preferred, newer format) format `http://<YOUR-CIDv1-HERE>.localhost:8080/`
+This tells us that we are in fact looking up via _our local machine (127.0.0.1 or localhost)_ and querying for **data with a given IPFS CID** of the [preferred, newer format](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats): `http://<YOUR-CIDv1-HERE>.localhost:8080/`
 
 ---
 
@@ -80,19 +92,13 @@ We can ask _another_ IPFS node out on the wild web if they can see it! There are
 
 Let's see what we find if we ask the https://ipfs.io gateway to retrieve our file's CID. In much the same way, we just need to specify the right CID to retrieve:
 
-- https://ipfs.io/ipfs/QmPHruLBfdnqMDh1emvVZY7UdK5ShLrLi5qtFnA2x27Q1M
-- https://bafybeiaoes5vkw53bmxh7iw62ml2t36zjqgtlwh3o2odzonqbeyhpknhoa.ipfs.dweb.link/
+- https://ipfs.io/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5
+- https://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.dweb.link/
 
-Open up those links and see what you get!
 
-FIXME -- SCREENSHOT NEEDED
-
-Sweet! The file is found by the ipfs.io _and_ dweb.link nodes via _different encodings **and** different methods!! This confirms that not \_just our local node_ knows about this file - our peers can get it too!! And in a _various of ways_.
+Sweet! The file is found by the ipfs.io _and_ dweb.link nodes via _different encodings **and** different methods!! This confirms that not _just our local node_ knows about this file - our peers can get it too!! And in a _various of ways_.
 
 **_Notice we didn't upload this file anywhere! The IPFS network was able to retrieve it from OUR NODE!!!_**
-
-... well kinda... this is a bit of a silly example: the file you downloaded above came _directly from this IPFS gateway to begin with (check the link URL above WHERE WE DOWNLOADED IF FROM)_.
-What it _does_ show is that you got the exact same CID for the same file.
 
 !!! **This is an important note:**
 
@@ -138,7 +144,7 @@ This fine photo is from a set of Apollo program photos and happens to be famous 
 
 Wouldn't it be awesome if you could browse **a website album** of all these _on IPFS_?[^2]
 
-[^2]: Here is the _same_ photo in the Apollo archive album: http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg
+[^2]: Here is the _same_ photo in the Apollo archive album: <http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg>
 
 **YOU CAN!**
 
@@ -189,6 +195,6 @@ Use-case examples:
 
 ---
 
-## _Footnotes_
+#### _Footnotes_
 
 <!-- auto generated from above -->
