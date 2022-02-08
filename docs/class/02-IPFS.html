@@ -61,7 +61,7 @@
       style="margin-top: -8px; padding-right: 20px;"
       src="../assets/images/dApp-Course-S22-white-transp.png"
       alt="UCB-Logo"
-      width="10%"
+      height="42vh"
     />
     <a class="c-navigation__item " href="/build-a-blockchain-startup/">Home</a>
     <a class="c-navigation__item " href="/build-a-blockchain-startup/schedule/">Schedule</a>
@@ -79,11 +79,15 @@
 
   <div class="c-article__main"><!-- IPFS CIDs for websites can be found via: https://docs.ipfs.io/concepts/dnslink/ -->
 
-<p>An introduction to IPFS via the Desktop application.
-<em>Ideal for those new to IPFS.</em>
-<strong>Following along from the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a></strong></p>
+<p>An introduction to IPFS via the Desktop application.</p>
+
+<p><em>Ideal for those new to IPFS.</em></p>
+
+<p><strong>Used in conjunction with the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a></strong></p>
 
 <hr />
+
+<p>Before we begin:</p>
 
 <h2 id="install-ipfs-desktop">Install IPFS Desktop</h2>
 
@@ -91,17 +95,29 @@
 
 <h4 id="httpsdocsipfsioinstallipfs-desktop"><a href="https://docs.ipfs.io/install/ipfs-desktop">https://docs.ipfs.io/install/ipfs-desktop</a></h4>
 
+<h2 id="optional-sign-up-for-a-pinning-service">Optional: Sign up for a pinning service</h2>
+
+<p>This is a cloud based IPFS node you can <a href="https://docs.ipfs.io/how-to/pin-files/">“pin” IPFS content</a> on that will be available when your machine(s) are offline to teh rest of the IPFS network.
+Many exist! Here are a few:</p>
+
+<ul>
+  <li><a href="https://pinata.cloud">https://pinata.cloud</a> <strong>Free accounts available!</strong> - easy file storage for NFTs and more.</li>
+  <li><a href="https://fleek.co">https://fleek.co</a> - targeting websites on IPFS specifically with extra nice tooling for that.</li>
+  <li><a href="https://infura.io/docs/ipfs">https://infura.io/docs/ipfs</a> - more dev focused with robust API integrations.</li>
+  <li><a href="https://www.kaleido.io/blockchain-platform/ipfs-file-store">https://www.kaleido.io/blockchain-platform/ipfs-file-store</a> - targeted for <a href="https://www.kaleido.io/product/overview#blockchain-as-a-service">“BaaS”</a> full application deployments.</li>
+</ul>
+
 <hr />
 
 <h2 id="import-and-serve-a-file-via-a-local-ipfs-node">Import and Serve a File via a Local IPFS Node</h2>
 
 <p>Let’s all use the <em><strong>same file</strong></em> to start:</p>
 
-<p>The <a href="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"><b>B@B Logo</b></a>:
+<p>The <a download="" href="../assets/images/dApp-Course-S22-black.png"><b>dApp Course Logo</b></a>:
 <br /></p>
 
 <center>
-<img width="250px" src="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png" /> 
+<img width="250px" src="../assets/images/dApp-Course-S22-black.png" />
 <br />
 </center>
 
@@ -113,20 +129,32 @@
 
 <p>Navigate to the “Files tab” and hit “+Import” and select the <code class="language-plaintext highlighter-rouge">blockchain-at-berkeley.png</code> file we just downloaded.</p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/1-import.png" />
+<br />
+</center>
 
 <p>After you import…</p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/2-imported.png" />
+<br />
+</center>
 
 <p>You should see the file has a funny subtitle starting with <code class="language-plaintext highlighter-rouge">Qm...</code> - <strong>This is the CID of the file!</strong>
 Let’s take a deeper look at this file by <strong>inspecting it</strong></p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/3-inspect.png" />
+<br />
+</center>
 
-<p>Here we can see that this file is very small (8 KB) and thus all the data for it can be contained in <strong>just one chunk</strong>! Our <code class="language-plaintext highlighter-rouge">Object</code> has all the <code class="language-plaintext highlighter-rouge">Buffer</code> data it needs to reconstruct the file directly.</p>
+<p>Here we can see that this file is very small (81 KB) and thus all the data for it can be contained in <strong>just one chunk</strong>! Our <code class="language-plaintext highlighter-rouge">Object</code> has all the <code class="language-plaintext highlighter-rouge">Buffer</code> data it needs to reconstruct the file directly.</p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/4-chunk.png" />
+<br />
+</center>
 
 <hr />
 
@@ -136,16 +164,19 @@ Let’s take a deeper look at this file by <strong>inspecting it</strong></p>
 
 <p>IPFS-desktop will, by default, bind the gateway to <code class="language-plaintext highlighter-rouge">http://localhost:8080/</code> on our local machine. We can query IPFS content by CID through the desktop interface</p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/5-localnode.png" />
+<br />
+</center>
 
 <p>Notice the URL (one of two versions, both are the same with different <em>encodings</em> of the CID):</p>
 
 <ul>
-  <li><a href="http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E">http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E</a></li>
-  <li><a href="http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/">http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/</a></li>
+  <li><a href="http://127.0.0.1:8080/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5">http://127.0.0.1:8080/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5</a></li>
+  <li><a href="http://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.localhost:8080/">http://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.localhost:8080/</a></li>
 </ul>
 
-<p>This tells us that we are in fact looking up via <em>our local machine (127.0.0.1 or localhost)</em> and querying for <strong>data with a given IPFS CID</strong> of the (preferred, newer format) format <code class="language-plaintext highlighter-rouge">http://&lt;YOUR-CIDv1-HERE&gt;.localhost:8080/</code></p>
+<p>This tells us that we are in fact looking up via <em>our local machine (127.0.0.1 or localhost)</em> and querying for <strong>data with a given IPFS CID</strong> of the <a href="https://docs.ipfs.io/concepts/content-addressing/#identifier-formats">preferred, newer format</a>: <code class="language-plaintext highlighter-rouge">http://&lt;YOUR-CIDv1-HERE&gt;.localhost:8080/</code></p>
 
 <hr />
 
@@ -156,20 +187,13 @@ Let’s take a deeper look at this file by <strong>inspecting it</strong></p>
 <p>Let’s see what we find if we ask the https://ipfs.io gateway to retrieve our file’s CID. In much the same way, we just need to specify the right CID to retrieve:</p>
 
 <ul>
-  <li>https://ipfs.io/ipfs/QmPHruLBfdnqMDh1emvVZY7UdK5ShLrLi5qtFnA2x27Q1M</li>
-  <li>https://bafybeiaoes5vkw53bmxh7iw62ml2t36zjqgtlwh3o2odzonqbeyhpknhoa.ipfs.dweb.link/</li>
+  <li>https://ipfs.io/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5</li>
+  <li>https://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.dweb.link/</li>
 </ul>
-
-<p>Open up those links and see what you get!</p>
-
-<p>FIXME – SCREENSHOT NEEDED</p>
 
 <p>Sweet! The file is found by the ipfs.io <em>and</em> dweb.link nodes via <em>different encodings <strong>and</strong> different methods!! This confirms that not _just our local node</em> knows about this file - our peers can get it too!! And in a <em>various of ways</em>.</p>
 
 <p><strong><em>Notice we didn’t upload this file anywhere! The IPFS network was able to retrieve it from OUR NODE!!!</em></strong></p>
-
-<p>… well kinda… this is a bit of a silly example: the file you downloaded above came <em>directly from this IPFS gateway to begin with (check the link URL above WHERE WE DOWNLOADED IF FROM)</em>.
-What it <em>does</em> show is that you got the exact same CID for the same file.</p>
 
 <p>!!! <strong>This is an important note:</strong></p>
 
@@ -194,7 +218,10 @@ What it <em>does</em> show is that you got the exact same CID for the same file.
 
 <p>You can see a list of the peers that you are directly connected to on the <code class="language-plaintext highlighter-rouge">Peers</code> tab:</p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/6-peers.png" />
+<br />
+</center>
 
 <p>Without going into the weeds on the details of <em>how</em> your node goes about sharing and finding data on the IPFS network (but you totally can <a href="httpshttps://docs.ipfs.io/concepts/dht/">here</a> after the workshop) we experiment with <strong>asking your peers for some data directly</strong>.</p>
 
@@ -234,7 +261,10 @@ What it <em>does</em> show is that you got the exact same CID for the same file.
 
 <p><strong>Notice the URL… <em>its local!</em></strong></p>
 
-<p>FIXME – SCREENSHOT NEEDED</p>
+<center>
+<img width="90%" src="../assets/images/IPFS-Workshop/7-apollo.png" />
+<br />
+</center>
 
 <p>So… our node behind the scenes looked up a CID and from this was able to construct the site… <strong>locally</strong>. Our peers delivered the content, and now we can browse the site… <strong>even offline</strong> (if we pin the site to our node) and will share the site’s content with any peers that ask for it!</p>
 
@@ -244,7 +274,7 @@ What it <em>does</em> show is that you got the exact same CID for the same file.
 
 <p>So what if I wanna <strong><em>publish an IPFS website</em></strong> and have others help share it and keep it alive… even when my node is offline?</p>
 
-<h3 id="back-to-the-workshop-slides-for-more"><em>Back to the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a> for more!</em></h3>
+<h3 id="back-to-the-workshop-slides-for-more-resources-and-how-to-do-this"><em>Back to the <a href="https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/">workshop slides</a> for more resources and how to do this!</em></h3>
 
 <!-- ---
 
@@ -267,7 +297,7 @@ Use-case examples:
 
 <hr />
 
-<h2 id="footnotes"><em>Footnotes</em></h2>
+<h4 id="footnotes"><em>Footnotes</em></h4>
 
 <!-- auto generated from above -->
 <div class="footnotes" role="doc-endnotes">
@@ -276,7 +306,7 @@ Use-case examples:
       <p>By default, yes. Only if you <a href="https://docs.ipfs.io/how-to/pin-files/"><strong>pin</strong></a> this data (file upload does this automatically). But this data will only be shared if other peers know the CIDs for content you hold and request it. And only if your machine is on a network that can connect <em>out to other peers</em> - and many firewalls and NATs don’t always play nice with this. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
-      <p>Here is the <em>same</em> photo in the Apollo archive album: http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>Here is the <em>same</em> photo in the Apollo archive album: <a href="http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg">http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
