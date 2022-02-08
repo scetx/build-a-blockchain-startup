@@ -7,10 +7,14 @@ permalink: /class/02-IPFS
 <!-- IPFS CIDs for websites can be found via: https://docs.ipfs.io/concepts/dnslink/ -->
 
 An introduction to IPFS via the Desktop application.
+
 _Ideal for those new to IPFS._
-**Following along from the [workshop slides](https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/)**
+
+**Used in conjunction with the [workshop slides](https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/)**
 
 ---
+
+Before we begin:
 
 ## Install IPFS Desktop
 
@@ -18,17 +22,27 @@ Now is the time to get IPFS Desktop! Instructions are available for Linux, Mac a
 
 #### <https://docs.ipfs.io/install/ipfs-desktop>
 
+## Optional: Sign up for a pinning service
+
+This is a cloud based IPFS node you can ["pin" IPFS content](https://docs.ipfs.io/how-to/pin-files/) on that will be available when your machine(s) are offline to teh rest of the IPFS network.
+Many exist! Here are a few:
+
+- <https://pinata.cloud> **Free accounts available!** - easy file storage for NFTs and more.
+- <https://fleek.co> - targeting websites on IPFS specifically with extra nice tooling for that.
+- <https://infura.io/docs/ipfs> - more dev focused with robust API integrations.
+- <https://www.kaleido.io/blockchain-platform/ipfs-file-store> - targeted for ["BaaS"](https://www.kaleido.io/product/overview#blockchain-as-a-service) full application deployments.
+
 ---
 
 ## Import and Serve a File via a Local IPFS Node
 
 Let's all use the _**same file**_ to start:
 
-The <a href="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"><b>B@B Logo</b></a>:
+The <a download href="{{ relBase }}../assets/images/dApp-Course-S22-black.png"><b>dApp Course Logo</b></a>:
 <br>
 
 <center>
-<img width="250px" src="https://ipfs.io/ipfs/QmZq1igrmuyfHeEpWLqeRMvpBRMU2a8nGqEdAQGHxV7yt4/blockchain-at-berkeley.png"> 
+<img width="250px" src="{{ relBase }}../assets/images/dApp-Course-S22-black.png">
 <br>
 </center>
 
@@ -40,20 +54,32 @@ Right Click and download ("save link as...") the image above, so we can play tog
 
 Navigate to the "Files tab" and hit "+Import" and select the `blockchain-at-berkeley.png` file we just downloaded.
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/1-import.png">
+<br>
+</center>
 
 After you import...
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/2-imported.png">
+<br>
+</center>
 
 You should see the file has a funny subtitle starting with `Qm...` - **This is the CID of the file!**
 Let's take a deeper look at this file by **inspecting it**
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/3-inspect.png">
+<br>
+</center>
 
-Here we can see that this file is very small (8 KB) and thus all the data for it can be contained in **just one chunk**! Our `Object` has all the `Buffer` data it needs to reconstruct the file directly.
+Here we can see that this file is very small (81 KB) and thus all the data for it can be contained in **just one chunk**! Our `Object` has all the `Buffer` data it needs to reconstruct the file directly.
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/4-chunk.png">
+<br>
+</center>
 
 ---
 
@@ -63,14 +89,17 @@ Now that **_your_** node has a copy of this file, we can view it via our **local
 
 IPFS-desktop will, by default, bind the gateway to `http://localhost:8080/` on our local machine. We can query IPFS content by CID through the desktop interface
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/5-localnode.png">
+<br>
+</center>
 
 Notice the URL (one of two versions, both are the same with different _encodings_ of the CID):
 
-- <http://127.0.0.1:8080/ipfs/QmRNLiyC3EykbePXT6XULZjDrKZQyZ2ku5qtALkDW96V4E>
-- <http://bafybeibnahrpkvbhk6okv5ws3fkyhzkmem3jwfiokogwyacjk7xgc6fgsm.ipfs.localhost:8080/>
+- <http://127.0.0.1:8080/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5>
+- <http://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.localhost:8080/>
 
-This tells us that we are in fact looking up via _our local machine (127.0.0.1 or localhost)_ and querying for **data with a given IPFS CID** of the (preferred, newer format) format `http://<YOUR-CIDv1-HERE>.localhost:8080/`
+This tells us that we are in fact looking up via _our local machine (127.0.0.1 or localhost)_ and querying for **data with a given IPFS CID** of the [preferred, newer format](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats): `http://<YOUR-CIDv1-HERE>.localhost:8080/`
 
 ---
 
@@ -80,19 +109,13 @@ We can ask _another_ IPFS node out on the wild web if they can see it! There are
 
 Let's see what we find if we ask the https://ipfs.io gateway to retrieve our file's CID. In much the same way, we just need to specify the right CID to retrieve:
 
-- https://ipfs.io/ipfs/QmPHruLBfdnqMDh1emvVZY7UdK5ShLrLi5qtFnA2x27Q1M
-- https://bafybeiaoes5vkw53bmxh7iw62ml2t36zjqgtlwh3o2odzonqbeyhpknhoa.ipfs.dweb.link/
+- https://ipfs.io/ipfs/QmVypWSDAuHxjnftcv4o583oVVeXinBUxcQab72zH77Ly5
+- https://bafybeidrq5ql7zjpusn5vb2ap2mewp4vveeueiwqbgh7groalka2pq4aoa.ipfs.dweb.link/
 
-Open up those links and see what you get!
 
-FIXME -- SCREENSHOT NEEDED
-
-Sweet! The file is found by the ipfs.io _and_ dweb.link nodes via _different encodings **and** different methods!! This confirms that not \_just our local node_ knows about this file - our peers can get it too!! And in a _various of ways_.
+Sweet! The file is found by the ipfs.io _and_ dweb.link nodes via _different encodings **and** different methods!! This confirms that not _just our local node_ knows about this file - our peers can get it too!! And in a _various of ways_.
 
 **_Notice we didn't upload this file anywhere! The IPFS network was able to retrieve it from OUR NODE!!!_**
-
-... well kinda... this is a bit of a silly example: the file you downloaded above came _directly from this IPFS gateway to begin with (check the link URL above WHERE WE DOWNLOADED IF FROM)_.
-What it _does_ show is that you got the exact same CID for the same file.
 
 !!! **This is an important note:**
 
@@ -114,7 +137,10 @@ What?! You mean to say that I already am sharing this data with many different p
 
 You can see a list of the peers that you are directly connected to on the `Peers` tab:
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/6-peers.png">
+<br>
+</center>
 
 Without going into the weeds on the details of _how_ your node goes about sharing and finding data on the IPFS network (but you totally can [here](httpshttps://docs.ipfs.io/concepts/dht/) after the workshop) we experiment with **asking your peers for some data directly**.
 
@@ -138,7 +164,7 @@ This fine photo is from a set of Apollo program photos and happens to be famous 
 
 Wouldn't it be awesome if you could browse **a website album** of all these _on IPFS_?[^2]
 
-[^2]: Here is the _same_ photo in the Apollo archive album: http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg
+[^2]: Here is the _same_ photo in the Apollo archive album: <http://127.0.0.1:8080/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D/albums/QXBvbGxvIDEwIE1hZ2F6aW5lIDM1L1U=/21328560323_6b33f5d4c3_o.jpg>
 
 **YOU CAN!**
 
@@ -156,7 +182,10 @@ To see this in action, the let's checkout a static web album **with our IPFS Des
 
 **Notice the URL... _its local!_**
 
-FIXME -- SCREENSHOT NEEDED
+<center>
+<img width="90%" src="{{ relBase }}../assets/images/IPFS-Workshop/7-apollo.png">
+<br>
+</center>
 
 So... our node behind the scenes looked up a CID and from this was able to construct the site... **locally**. Our peers delivered the content, and now we can browse the site... **even offline** (if we pin the site to our node) and will share the site's content with any peers that ask for it!
 
@@ -166,7 +195,7 @@ _By using and IPFS node to pin static websites, you are acting as a server for s
 
 So what if I wanna **_publish an IPFS website_** and have others help share it and keep it alive... even when my node is offline?
 
-### _Back to the [workshop slides](https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/) for more!_
+### _Back to the [workshop slides](https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/) for more resources and how to do this!_
 
 <!-- ---
 
@@ -189,6 +218,6 @@ Use-case examples:
 
 ---
 
-## _Footnotes_
+#### _Footnotes_
 
 <!-- auto generated from above -->

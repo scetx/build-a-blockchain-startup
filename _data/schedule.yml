@@ -58,9 +58,11 @@
 
 - date: 02/8/22
   topic: IPFS Workshop
-  # page: /class/02-IPFS
-  # slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
+  page: /class/02-IPFS
+  slides: https://docs.google.com/presentation/d/1Nrwece33ElfVB5ibyvloQX80kZFmUpkLHdvGTsKu-PI/edit?usp=sharing
   material:
+    - name: Signup for a free Pinata account
+      link: https://app.pinata.cloud/
   recording:
 
 - date: 02/10/22
