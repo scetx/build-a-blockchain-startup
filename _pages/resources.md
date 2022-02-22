@@ -217,10 +217,10 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 
 ### Algorand
 
-- [Algorand Resource Kit](https://docs.google.com/document/d/1qB-c7zWXSQ8tS7Lk4xz_suZ248SpirAQSpJGz61wsjA/edit)
-- [Algorand Tutorial](https://github.com/algorandfoundation/buildweb3)
-- [Algorand Website](https://algorand.foundation/)
-- [Project Ideas](https://docs.google.com/document/d/1XnrpvgM5a35cNuQ_lp-lYGvfzyCtwUCHsA1U6xOGo3A/edit) - Might be outdated; use with care!
+- [Website](https://algorand.foundation/)
+- [Berkeley Resource Kit](https://docs.google.com/document/d/1qB-c7zWXSQ8tS7Lk4xz_suZ248SpirAQSpJGz61wsjA/edit)
+- [101 Tutorial](https://github.com/algorandfoundation/buildweb3)
+- [Project Ideas](https://docs.google.com/document/d/1XnrpvgM5a35cNuQ_lp-lYGvfzyCtwUCHsA1U6xOGo3A/edit) - Somewhat outdated; use with care!
 
 # Further Resources on Related Topics:
 
