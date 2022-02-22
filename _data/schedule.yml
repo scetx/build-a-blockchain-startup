@@ -119,7 +119,7 @@
 - date: 02/22/22
   topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda from Algorand Foundation 
   page:
-  slides:
+  slides: https://docs.google.com/presentation/d/1BZ9rchskZwvfR7MrF_eCXlGeu8h9g3kC1mL7sz1g7Hw/
   material:
     - name: Course Resources on Algorand
       file: /resources/#algorand
@@ -134,8 +134,8 @@
   material:
     - name: Dmitriy Berenzon's LinkedIn
       link: https://www.linkedin.com/in/dmitriyberenzon/
-    - name: Dmitriy Berenzon's LinkedIn
-      link: https://www.linkedin.com/in/ada-jonuse/?originalSubdomain=de
+    - name: Ada Jonuse's LinkedIn
+      link: https://www.linkedin.com/in/ada-jonuse/
   recording:
 
 - date: 03/1/22

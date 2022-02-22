@@ -55,9 +55,9 @@ By the most granular geo-location (town -> country) or demographic (online group
 #### Colorado
 
 - [Colorado Council for the Advancement of Blockchain Technology](https://choosecolorado.com/blockchain/)
-- [Cryptocurrency Exempties (Colorado are Token Act)](https://leg.colorado.gov/bills/sb19-023)
+- [Cryptocurrency Exemption (Colorado are Token Act)](https://leg.colorado.gov/bills/sb19-023)
 - [Colorado Department of Higher Education - Blockchain](http://masterplan.highered.colorado.gov/colorado-rises-best-practices/higher-education-blockchain)
-- [MyColoradoID](https://dmv.colorado.gov/mycolorado-and-colorado-digital-id) (digital driver’s licence and more)
+- [MyColoradoID](https://dmv.colorado.gov/mycolorado-and-colorado-digital-id) (digital driver’s license and more)
 - [Cryptorado Community](https://cryptorado.org/) - CO Community events & groups - Get involved!
 - [ETHDenver](https://www.ethdenver.com/) - hosted mid February, yearly.
 
@@ -78,7 +78,7 @@ By the most granular geo-location (town -> country) or demographic (online group
 - 📺 [What are Digital Signatures?](https://www.youtube-nocookie.com/embed/s22eJ1eVLTU) _Computerphile, 2020_
 
   - Use case for Public key cryptography that is an abstraction of sending an encrypted message
-    Alternatives/supplements (shorter and a bit more approachable than computerfile ones above on the same topic)
+    Alternatives/supplements (shorter and a bit more approachable than Computerphile ones above on the same topic)
 
 - 📺 [Secret Sharing Explained Visually](https://www.youtube-nocookie.com/embed/iFY5SyY3IMQ) _Art of the Problem, 2019_
   - An overview of the math behind cryptography (Shamir's Secret Sharing) to obscure a secret. It's likely you do not need to understand how the math works, just to be exposed to how it works.
@@ -101,12 +101,12 @@ By the most granular geo-location (town -> country) or demographic (online group
 
 - 📺 [But how does bitcoin actually work?](https://www.youtube-nocookie.com/embed/bBC-nXj3Ng4) - Bitcoin protocol technical explainer
 
-- 📺 [Bitcoin 101 Blackboard Series](https://www.youtube.com/watch?v=J52AM5SrOHw&list=PLzctEq7iZD-7-DgJM604zsndMapn9ff6q) - Immensly valuable **playlist** for deep technical understanding of the Bitcoin protocols, but easy for anyone to get a lot our of!
+- 📺 [Bitcoin 101 Blackboard Series](https://www.youtube.com/watch?v=J52AM5SrOHw&list=PLzctEq7iZD-7-DgJM604zsndMapn9ff6q) - Immensely valuable **playlist** for deep technical understanding of the Bitcoin protocols, but easy for anyone to get a lot our of!
 - 📺 [Devcon2: Ethereum in 25 Minutes](https://www.youtube-nocookie.com/embed/66SaEDzlmP4) - Early history and technical understanding of the Ethereum protocol.
 
 - 📜 [Bitcoin: Economics, Technology and Governance](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.29.2.213) - Rainer Bohme, Nicolas Cristin, Benjamin Edelman, Tyler Moore, 2015.
 
-- 📖 [Tapscott, Don and Tapsoctt, Alex, 2018. Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurriencies is Changing the world. New York: Penguin Portfolio](https://books.google.com/books/about/Blockchain_Revolution.html?id=bwz_CwAAQBAJ)
+- 📖 [Tapscott, Don and Tapscott, Alex, 2018. Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies are Changing the world. New York: Penguin Portfolio](https://books.google.com/books/about/Blockchain_Revolution.html?id=bwz_CwAAQBAJ)
 
 - 📖 [Harvard Business School Publishing Corporation, 2019. Blockchain: The Insights you need From Harvard Business Review. Boston: Harvard Business Review Press](https://store.hbr.org/product/blockchain-the-insights-you-need-from-harvard-business-review/10282)
 
@@ -154,7 +154,7 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 - 🎙️ [Into the Ether](https://podcast.ethhub.io/)
 - 🎙️ [Zero Knowledge](https://www.zeroknowledge.fm/)
 - 🎙️ [The New Future of Work](https://samharris.org/podcasts/194-new-future-work/) (Making Sense Podcast, Sam Harris)
-- 🎙️ [Hashr8](https://h4shr8.libsyn.com/)
+- 🎙️ [H4shr8](https://h4shr8.libsyn.com/)
 
 ### Newsletters and Blogs
 
@@ -219,6 +219,8 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 
 - [Website](https://algorand.foundation/)
 - [Berkeley Resource Kit](https://docs.google.com/document/d/1qB-c7zWXSQ8tS7Lk4xz_suZ248SpirAQSpJGz61wsjA/edit)
+- [Berkeley Workshop Slides ](https://docs.google.com/presentation/d/1BZ9rchskZwvfR7MrF_eCXlGeu8h9g3kC1mL7sz1g7Hw/)
+- [Workshop Example Code](https://github.com/fabrice102/smart-contracts/tree/fabrice/upenn/devrel/fabrice-upenn)
 - [101 Tutorial](https://github.com/algorandfoundation/buildweb3)
 - [Project Ideas](https://docs.google.com/document/d/1XnrpvgM5a35cNuQ_lp-lYGvfzyCtwUCHsA1U6xOGo3A/edit) - Somewhat outdated; use with care!
 
@@ -235,7 +237,7 @@ This page is not a complete resource! Other great aggregations of knowledge exis
 
 - [https://a16z.com/2018/02/10/crypto-readings-resources/](https://a16z.com/2018/02/10/crypto-readings-resources/)
 
-### Glossarys, FAQ, & Topical Overviews
+### Glossaries, FAQ, & Topical Overviews
 
 - [https://a16z.com/2019/11/08/crypto-glossary/](https://a16z.com/2019/11/08/crypto-glossary/)
 - [https://blockgeeks.com/guides/](https://blockgeeks.com/guides/)
