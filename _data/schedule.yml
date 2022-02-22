@@ -37,9 +37,9 @@
 
 - date: 01/27/22
   topic: The Idea & Opportunity (1) - How to recognize a Tangible Opportunity
-  page: 
+  page:
   slides: https://www.slideshare.net/Tommasodb/how-to-recognize-a-tangible-opportunity
-  material: 
+  material:
     - name: 📍 Problem Definition Slide Deck
       link: https://drive.google.com/file/d/1K6NIlM16dPVGPBGNpN0WL8rUJvWGsUWP/view
     - name: 🎥 Weekly Vlog 2
@@ -58,7 +58,7 @@
 - date: 02/3/22
   topic: The Idea & Opportunity (2) - Fine Tuning Hypothesis
   page:
-  slides: 
+  slides:
   material:
     - name: 📍 Fine Tuning your Hypothesis (Slides)
       link: https://drive.google.com/file/d/1pSv-EG3KQC5z-tU4gV9GS75I_aLLNeHB/view
@@ -108,10 +108,12 @@
   recording:
 
 - date: 02/17/22
-  topic: The Value (1)
+  topic: The Value (1) - Kelly Leung from MadWorld
   page:
   slides:
   material:
+    - name: Kelly Leung's LinkedIn
+      link:
   recording:
 
 - date: 02/22/22
@@ -122,10 +124,14 @@
   recording:
 
 - date: 02/24/22
-  topic: The Value (2)
+  topic: The Value (2) - Dmitriy Berenzon from 1kx Capital and Ada Jonuse from Lympo
   page:
   slides:
   material:
+    - name: Dmitriy Berenzon's LinkedIn
+      link: https://www.linkedin.com/in/dmitriyberenzon/
+    - name: Dmitriy Berenzon's LinkedIn
+      link: https://www.linkedin.com/in/ada-jonuse/?originalSubdomain=de
   recording:
 
 - date: 03/1/22
@@ -136,10 +142,12 @@
   recording:
 
 - date: 03/3/22
-  topic: User Validation
+  topic: User Validation - Ian Lee from Syndicate Protocol
   page:
   slides:
   material:
+    - name: Ian Lee's LinkedIn
+      link: https://www.linkedin.com/in/mrianlee/
   recording:
 
 - date: 03/8/22
@@ -150,24 +158,30 @@
   recording:
 
 - date: 03/10/22
-  topic: Prototyping and Validation
+  topic: Prototyping and Validation - Yat Siu from Animoca Brands
   page:
   slides:
   material:
+    - name: Yat Siu's LinkedIn
+      link: https://www.linkedin.com/in/yatsiu/
   recording:
 
 - date: 03/15/22
-  topic: Business and Revenue Models
+  topic: TBD
   page:
   slides:
   material:
   recording:
 
 - date: 03/17/22
-  topic: TBA
+  topic: Business and Revenue Models in dApps - Philip Rosedale from Second Life and Jason Festa from Upland
   page:
   slides:
   material:
+    - name: Philip Rosedale's LinkedIn
+      link: https://www.linkedin.com/in/philiprosedale/
+    - name: Jason Festa's LinkedIn
+      link: https://www.linkedin.com/in/jasonfesta/
   recording:
 
 - date: 03/22/22
@@ -198,10 +212,12 @@
   recording:
 
 - date: 04/7/22
-  topic: Sales KPIs and OKRs
+  topic: Sales KPIs and OKRs - Arthur Madrid from The Sandbox
   page:
   slides:
   material:
+    - name: Arthur Madrid's LinkedIn
+      link: https://www.linkedin.com/in/arthurmadrid/
   recording:
 
 - date: 04/12/22
@@ -212,10 +228,12 @@
   recording:
 
 - date: 04/14/22
-  topic: Pitching and Storytelling
+  topic: Pitching and Storytelling - Ray Lu from Bit.country
   page:
   slides:
   material:
+    - name: Arthur Madrid's LinkedIn
+      link: https://www.linkedin.com/in/codemeit/
   recording:
 
 - date: 04/19/22
@@ -226,10 +244,12 @@
   recording:
 
 - date: 04/21/22
-  topic: Investment and Growth
+  topic: Investment and Growth - Peter Smith from Blockchain.com
   page:
   slides:
   material:
+    - name: Peter Smith's LinkedIn
+      link: https://www.linkedin.com/in/1psmith/
   recording:
 
 - date: 04/26/22
@@ -240,8 +260,10 @@
   recording:
 
 - date: 04/28/22
-  topic: Legal, IP, and Finance
+  topic: Legal, IP, Finance, and Growth - Arif Khan from Althea AI
   page:
   slides:
   material:
+    - name: Arif Khan's LinkedIn
+      link: https://www.linkedin.com/in/arikhan/
   recording:
