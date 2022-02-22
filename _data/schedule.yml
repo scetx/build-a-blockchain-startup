@@ -112,15 +112,19 @@
   page:
   slides:
   material:
-    - name: Kelly Leung's LinkedIn
-      link:
+    - name: MadWold Website
+      link: https://madworld.io/
   recording:
 
 - date: 02/22/22
-  topic: TBA
+  topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda from Algorand Foundation 
   page:
   slides:
   material:
+    - name: Course Resources on Algorand
+      file: /resources/#algorand
+    - name: Fabrice Benhamouda's LinkedIn
+      link: https://www.linkedin.com/in/fabrice-benhamouda/
   recording:
 
 - date: 02/24/22
@@ -135,10 +139,12 @@
   recording:
 
 - date: 03/1/22
-  topic: Pitch Practice (2)
+  topic: No & Low Code Ethereum Contract Development - Austin Griffith for Ethereum Foundation
   page:
   slides:
   material:
+    - name: Austin Griffith's LinkedIn
+      link: https://www.linkedin.com/in/austin-griffith-65ba2a2/
   recording:
 
 - date: 03/3/22
@@ -151,10 +157,12 @@
   recording:
 
 - date: 03/8/22
-  topic: TBA
+  topic: Building on Polkadot with Substrate - Sacha Lansky for Parity Tech
   page:
   slides:
   material:
+    - name: Sacha Lansky's LinkedIn
+      link: https://www.linkedin.com/in/alexander-sacha-lansky/
   recording:
 
 - date: 03/10/22
@@ -167,7 +175,7 @@
   recording:
 
 - date: 03/15/22
-  topic: TBD
+  topic: Class Pitch Practice (1)
   page:
   slides:
   material:
@@ -232,7 +240,7 @@
   page:
   slides:
   material:
-    - name: Arthur Madrid's LinkedIn
+    - name: Ray Lu's LinkedIn
       link: https://www.linkedin.com/in/codemeit/
   recording:
 
