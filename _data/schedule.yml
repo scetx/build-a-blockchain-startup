@@ -112,7 +112,7 @@
   page:
   slides:
   material:
-    - name: MadWold Website
+    - name: 💻 MadWold Website
       link: https://madworld.io/
   recording:
 
@@ -121,9 +121,9 @@
   page:
   slides: https://docs.google.com/presentation/d/1BZ9rchskZwvfR7MrF_eCXlGeu8h9g3kC1mL7sz1g7Hw/
   material:
-    - name: Course Resources on Algorand
+    - name: 💻 Course Resources on Algorand
       file: /resources/#algorand
-    - name: Fabrice Benhamouda's LinkedIn
+    - name: 🙋 Fabrice Benhamouda's LinkedIn
       link: https://www.linkedin.com/in/fabrice-benhamouda/
   recording:
 
@@ -132,7 +132,7 @@
   page:
   slides:
   material:
-    - name: Ada Jonuse's LinkedIn
+    - name: 🙋 Ada Jonuse's LinkedIn
       link: https://www.linkedin.com/in/ada-jonuse/
   recording:
 
@@ -141,8 +141,14 @@
   page:
   slides:
   material:
-    - name: Austin Griffith's LinkedIn
+    - name: 🙋 Austin Griffith's LinkedIn
       link: https://www.linkedin.com/in/austin-griffith-65ba2a2/
+    - name: 🏗 scaffold-eth (github)
+      link: https://github.com/austintgriffith/scaffold-eth
+    - name: 🛠 eth.build (website)
+      link: https://eth.build/
+    - name: 📺 eth.build (youtube playlist)
+      link: https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi
   recording:
 
 - date: 03/3/22
@@ -150,7 +156,7 @@
   page:
   slides:
   material:
-    - name: Ian Lee's LinkedIn
+    - name: 🙋 Ian Lee's LinkedIn
       link: https://www.linkedin.com/in/mrianlee/
   recording:
 
@@ -159,7 +165,7 @@
   page:
   slides:
   material:
-    - name: Sacha Lansky's LinkedIn
+    - name: 🙋 Sacha Lansky's LinkedIn
       link: https://www.linkedin.com/in/alexander-sacha-lansky/
   recording:
 
@@ -168,7 +174,7 @@
   page:
   slides:
   material:
-    - name: Yat Siu's LinkedIn
+    - name: 🙋 Yat Siu's LinkedIn
       link: https://www.linkedin.com/in/yatsiu/
   recording:
 
@@ -184,9 +190,9 @@
   page:
   slides:
   material:
-    - name: Philip Rosedale's LinkedIn
+    - name: 🙋 Philip Rosedale's LinkedIn
       link: https://www.linkedin.com/in/philiprosedale/
-    - name: Jason Festa's LinkedIn
+    - name: 🙋 Jason Festa's LinkedIn
       link: https://www.linkedin.com/in/jasonfesta/
   recording:
 
@@ -222,7 +228,7 @@
   page:
   slides:
   material:
-    - name: Arthur Madrid's LinkedIn
+    - name: 🙋 Arthur Madrid's LinkedIn
       link: https://www.linkedin.com/in/arthurmadrid/
   recording:
 
@@ -238,7 +244,7 @@
   page:
   slides:
   material:
-    - name: Ray Lu's LinkedIn
+    - name: 🙋 Ray Lu's LinkedIn
       link: https://www.linkedin.com/in/codemeit/
   recording:
 
@@ -254,7 +260,7 @@
   page:
   slides:
   material:
-    - name: Peter Smith's LinkedIn
+    - name: 🙋 Peter Smith's LinkedIn
       link: https://www.linkedin.com/in/1psmith/
   recording:
 
@@ -270,6 +276,6 @@
   page:
   slides:
   material:
-    - name: Arif Khan's LinkedIn
+    - name: 🙋 Arif Khan's LinkedIn
       link: https://www.linkedin.com/in/arikhan/
   recording:
