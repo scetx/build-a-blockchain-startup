@@ -117,7 +117,7 @@
   recording:
 
 - date: 02/22/22
-  topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda from Algorand Foundation 
+  topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda, Algorand Foundation 
   page:
   slides: https://docs.google.com/presentation/d/1BZ9rchskZwvfR7MrF_eCXlGeu8h9g3kC1mL7sz1g7Hw/
   material:
@@ -139,7 +139,7 @@
   recording:
 
 - date: 03/1/22
-  topic: No & Low Code Ethereum Contract Development - Austin Griffith for Ethereum Foundation
+  topic: 🛠eth.build to 🏗scaffold-eth - Building Decentralized Apps - Austin Griffith, Ethereum Foundation
   page:
   slides:
   material:
@@ -157,7 +157,7 @@
   recording:
 
 - date: 03/8/22
-  topic: Building on Polkadot with Substrate - Sacha Lansky for Parity Tech
+  topic: Building on Polkadot with Substrate - Sacha Lansky, Parity Tech
   page:
   slides:
   material:
