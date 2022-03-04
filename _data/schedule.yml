@@ -143,6 +143,8 @@
   material:
     - name: 🙋 Austin Griffith's LinkedIn
       link: https://www.linkedin.com/in/austin-griffith-65ba2a2/
+    - name: 💻 Course Resources on Ethereum
+      file: /resources/#ethereum
     - name: 🏗 scaffold-eth (github)
       link: https://github.com/austintgriffith/scaffold-eth
     - name: 🛠 eth.build (website)
@@ -161,12 +163,14 @@
   recording:
 
 - date: 03/8/22
-  topic: Building on Polkadot with Substrate - Sacha Lansky, Parity Tech
+  topic: Building on Polkadot with Substrate - Emre Surmeli, Web3 Foundation
   page:
   slides:
   material:
-    - name: 🙋 Sacha Lansky's LinkedIn
-      link: https://www.linkedin.com/in/alexander-sacha-lansky/
+    - name: 🙋 Emre Surmeli's LinkedIn
+      link: https://www.linkedin.com/in/emresurmeli/
+    - name: 💻 Course Resources on Polkadot (Parachains & Substrate)
+      file: /resources/#polkadot-parachains--substrate
   recording:
 
 - date: 03/10/22

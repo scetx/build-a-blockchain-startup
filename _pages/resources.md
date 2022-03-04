@@ -13,20 +13,46 @@ Some handy sippets :)
 - 📜 [
 -->
 
-# Resources
+# Class Resources
 
 See something missing or maybe outdated?<br>
 Help us make this resource list better!<br>
 **[👪 Contribute to Our Resources](#contribute-to-our-resources)**
+
+---
 
 ## Contents
 
 - **[👪 Contribute to Our Resources](#contribute-to-our-resources)**
 - [Class Specific](#class-specific)
 - [Region Specific](#region-specific)
+  - [California](#california)
+  - [Colorado](#colrado)
 - [Cryptography](#cryptography)
-- [Blockchain](#blockchain)
 - [Game Theory](#game-theory)
+- [Blockchain](#blockchain)
+  - [Blockchain Evaluation Flow Charts](blockchain-evaluation-flow-charts)
+- [Sociopolitical](#sociopolitical)
+- [News and Media](#news-and-media)
+  - [Podcasts](#podcasts)
+  - [Newsletters and Blogs](#newsletters-and-blogs)
+- [Case Studies and Industry Overviews](#case-studies-and-industry-overviews)
+- [Foundational](#foundational)
+- [Distributed Systems](#distributed-systems)
+- [Consensus](#consensus)
+- [Smart Contracts](#smart-contracts)
+- [Blockchain Developer Resources](#blockchain-developer-resources)
+  - [Alchemy](#alchemy)
+  - [Algorand](#algorand)
+  - [Ethereum](#ethereum)
+  - [Polkadot](#polkadot-parachains--substrate)
+- [Related-Topics](#related-topics)
+- [Other Awesome Lists](#other-awesome-lists)
+- [General Reading Lists](#general-reading-lists)
+- [Glossaries, FAQ, & Topical Overviews](#glossaries-faq--topical-overviews)
+- [Industry Specific Reports	](#industry-specific-reports)
+
+---
 
 ## Class Specific
 
@@ -224,7 +250,21 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 - [101 Tutorial](https://github.com/algorandfoundation/buildweb3)
 - [Project Ideas](https://docs.google.com/document/d/1XnrpvgM5a35cNuQ_lp-lYGvfzyCtwUCHsA1U6xOGo3A/edit) - Somewhat outdated; use with care!
 
-# Further Resources on Related Topics:
+### Ethereum
+
+- [⚒ eth.build](http://eth.build) - Drag & drop building web 3 applications rapidly.
+- [🏗 scaffold-eth]( https://github.com/austintgriffith/scaffold-eth) - Rapid solidity centric dApp framework & learning
+- [speedrunethereum.com](https://speedrunethereum.com/) - Learn Solidity in a gamified way!
+
+
+### Polkadot (Parachains & Substrate)
+
+- [Polkadot Wiki](https://wiki.polkadot.network) - Resources for users, builders, and node runners.
+- [Substrate Home](https://substrate.io) - Lean about the framework and the ecosystem of users.
+  - [Substrate Devhub](https://docs.substrate.io) - Learn the framework with docs and tutorials.
+  - [Substrate Stack Exchange](https://substrate.stackexchange.com) - Community driven support and resource base.
+
+# Related Topics
 
 - [https://en.wikipedia.org/wiki/Virtual_economy](https://en.wikipedia.org/wiki/Virtual_economy)
 - [https://en.wikipedia.org/wiki/Economics_of_digitization](https://en.wikipedia.org/wiki/Economics_of_digitization)
