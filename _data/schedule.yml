@@ -134,7 +134,7 @@
   material:
     - name: 🙋 Ada Jonuse's LinkedIn
       link: https://www.linkedin.com/in/ada-jonuse/
-  recording:
+  recording: https://www.youtube.com/watch?v=DRuSYK8w2KU
 
 - date: 03/1/22
   topic: 🛠eth.build to 🏗scaffold-eth - Building Decentralized Apps - Austin Griffith, Ethereum Foundation
@@ -165,7 +165,7 @@
 - date: 03/8/22
   topic: Building on Polkadot with Substrate - Emre Surmeli, Web3 Foundation
   page:
-  slides:
+  slides: https://docs.google.com/presentation/d/1T9bAKgj1tRYR6W1fWmlG4ZZQmXrqohtUd_kr1J_KAUY/
   material:
     - name: 🙋 Emre Surmeli's LinkedIn
       link: https://www.linkedin.com/in/emresurmeli/
