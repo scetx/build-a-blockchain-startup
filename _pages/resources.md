@@ -56,7 +56,8 @@ Help us make this resource list better!<br>
 
 ## Class Specific
 
-- [Build a Blockchain Startup - Slides](https://drive.google.com/drive/folders/1tA9IeRJmG9GArowjXxtVYJQ3gWdmkcAf)
+- [Build a Blockchain Startup - All Available Slides](https://drive.google.com/drive/folders/1tA9IeRJmG9GArowjXxtVYJQ3gWdmkcAf)
+- [Class YouTube Channel](https://www.youtube.com/channel/UC2MRFFBD8PRfton4qq8o-HQ)
 
 ## Region Specific
 
