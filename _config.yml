@@ -9,8 +9,8 @@ copyright: UC Berkeley SCET
 copyright-website: https://scet.berkeley.edu/
 course: INDENG 190E-002/290-002
 description: > # this means to ignore newlines until "baseurl:"
-  Write a description here.
-  It will appear in your document head meta (for Google search results).
+  Course Website for Build a Blockchain Startup - Decentralized Application (dApp) Development and Entrepreneurship
+
 baseurl: "/build-a-blockchain-startup" # the subpath of your site, e.g. /blog
 url: "https://scetx.github.io" # the base hostname & protocol for your site
 
