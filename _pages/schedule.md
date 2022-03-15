@@ -10,8 +10,11 @@ permalink: /schedule/
   <thead>
       <th style="width: 10%;"> Date </th>
       <th style="width: 30%;"> Class Materials </th>
-      <th style="width: 50%;"> Assigned Materials </th>
+      <th style="width: 5%;"> In-Person? </th>
+      <th style="width: 45%;"> Assigned Materials </th>
+
       <!-- <th style="text-align:left; width: 10%;"> Quiz </th> -->
+
   </thead>
   <tbody>
     {% for row in site.data.schedule %}
@@ -28,6 +31,8 @@ permalink: /schedule/
         {% if row.recording %} <!-- Expects an EXTERNAL URL -->
           [<a target="_blank" href="{{row.recording}}" style="font-size: 80%;text-decoration: underline;">Recording</a>]
         {% endif %}
+      </td>
+      <td>{% if row.in_person %} {{ row.in_person }} {% else %} TBD {% endif %}
       </td>
       <td>
         {% if row.material %} <!-- Handle an EXTERNAL or INTERNAL URL -->
