@@ -190,7 +190,13 @@
   page:
   slides:
   material:
-  recording:
+    - name: 🙋 Moon Jérin's LinkedIn
+      link: https://www.linkedin.com/in/moonjerin/
+    - name: 🙋 Chris Brocoum's LinkedIn
+      link: https://www.linkedin.com/in/chrisbrocoum/
+    - name: 🙋 Iddo Tal's LinkedIn
+      link: https://www.linkedin.com/in/iddotal/
+  recording: https://www.youtube.com/watch?v=_TKWS54t99A
   in_person: "Yes"
 
 - date: 03/17/22
@@ -212,7 +218,7 @@
   topic: "SPRING BREAK!"
 
 - date: 03/29/22
-  topic: TBA
+  topic: Deep Dive into dApp Architecture
   page:
   slides:
   material:
@@ -264,10 +270,12 @@
   in_person: "Yes"
 
 - date: 04/19/22
-  topic: TBA
+  topic: B@B Guest Lecture with N8
   page:
   slides:
   material:
+    - name: 🙋 Nate Pola's LinkedIn
+      link: https://www.linkedin.com/in/natepola/
   recording:
   in_person: "No"
 
