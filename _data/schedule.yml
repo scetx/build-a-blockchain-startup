@@ -117,7 +117,7 @@
   recording:
 
 - date: 02/22/22
-  topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda, Algorand Foundation 
+  topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda, Algorand Foundation
   page:
   slides: https://docs.google.com/presentation/d/1BZ9rchskZwvfR7MrF_eCXlGeu8h9g3kC1mL7sz1g7Hw/
   material:
@@ -189,7 +189,13 @@
   page:
   slides:
   material:
-  recording:
+    - name: 🙋 Moon Jérin's LinkedIn
+      link: https://www.linkedin.com/in/moonjerin/
+    - name: 🙋 Chris Brocoum's LinkedIn
+      link: https://www.linkedin.com/in/chrisbrocoum/
+    - name: 🙋 Iddo Tal's LinkedIn
+      link: https://www.linkedin.com/in/iddotal/
+  recording: https://www.youtube.com/watch?v=_TKWS54t99A
 
 - date: 03/17/22
   topic: Business and Revenue Models in dApps - Philip Rosedale from Second Life and Jason Festa from Upland
@@ -209,7 +215,7 @@
   topic: "SPRING BREAK!"
 
 - date: 03/29/22
-  topic: TBA
+  topic: Deep Dive into dApp Architecture
   page:
   slides:
   material:
@@ -255,10 +261,12 @@
   recording:
 
 - date: 04/19/22
-  topic: TBA
+  topic: B@B Guest Lecture with N8
   page:
   slides:
   material:
+    - name: 🙋 Nate Pola's LinkedIn
+      link: https://www.linkedin.com/in/natepola/
   recording:
 
 - date: 04/21/22
