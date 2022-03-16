@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Ada Jonuse	
-permalink: /profile/jonuse	
+title: Ada Jonuse
+permalink: /profile/jonuse
 ---
 
 # _Ada Jonuse_
 
 <img src="{{ relBase }}../assets/images/profile-pics/Ada Jonuse.jpg" alt="Ada Jonuse.jpg" width="30%" />
 
-- _[LinkedIn](<https://www.linkedin.com/in/ada-jonuse/>)_
-- _Class on [2/24/2022](../schedule)_  /// _<a target="_blank" href="{{ relBase }}../assets/slides/0224_Ada_Blockchain Centre.pdf">Presentation Slides</a> -- (<a download href="{{ relBase }}../assets/slides/0224_Ada_Blockchain Centre.pdf">Download</a>)_
+- _[LinkedIn](https://www.linkedin.com/in/ada-jonuse/)_
+- _Class on [2/24/2022](../schedule)_ /// _<a target="_blank" href="{{ relBase }}../assets/slides/0224_Ada_Blockchain Centre.pdf">Presentation Slides</a> -- (<a download href="{{ relBase }}../assets/slides/0224_Ada_Blockchain Centre.pdf">Download</a>)_
 
 ## Bio
 
