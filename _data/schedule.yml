@@ -306,3 +306,15 @@
       link: https://www.linkedin.com/in/arikhan/
   recording:
   in_person: "Yes"
+
+- date: 05/6/22
+  topic: (Optional, 9-12pm PST) Berkeley Collider Cup X
+  page:
+  slides:
+  material:
+    - name: 💻 Collider Cup Homepage
+      link: https://scet.berkeley.edu/students/collider-cup/
+    - name: 📍 RSVP on Eventbrite
+      link: https://www.eventbrite.com/e/scet-collider-cup-ix-registration-205348130787
+  recording:
+  in_person: "Yes"

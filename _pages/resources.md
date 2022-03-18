@@ -50,7 +50,7 @@ Help us make this resource list better!<br>
 - [Other Awesome Lists](#other-awesome-lists)
 - [General Reading Lists](#general-reading-lists)
 - [Glossaries, FAQ, & Topical Overviews](#glossaries-faq--topical-overviews)
-- [Industry Specific Reports	](#industry-specific-reports)
+- [Industry Specific Reports ](#industry-specific-reports)
 
 ---
 
@@ -254,9 +254,8 @@ Regularly publish content to stay up-to-date on Web3 industry news.
 ### Ethereum
 
 - [⚒ eth.build](http://eth.build) - Drag & drop building web 3 applications rapidly.
-- [🏗 scaffold-eth]( https://github.com/austintgriffith/scaffold-eth) - Rapid solidity centric dApp framework & learning
+- [🏗 scaffold-eth](https://github.com/austintgriffith/scaffold-eth) - Rapid solidity centric dApp framework & learning
 - [speedrunethereum.com](https://speedrunethereum.com/) - Learn Solidity in a gamified way!
-
 
 ### Polkadot (Parachains & Substrate)
 
