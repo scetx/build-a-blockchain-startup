@@ -22,6 +22,8 @@
       link: https://www.loom.com/share/e2387019e3c943be90381ed08a1e1853
     - name: 🎥 Weekly Vlog 1
       link: https://flipgrid.com/072c8563
+  recording:
+  in_person: "No"
 
 - date: 01/25/22
   topic: Introduction to Web3 Technologies
@@ -34,7 +36,8 @@
       link: https://moxie.org/2022/01/07/web3-first-impressions.html
     - name: 🧠 [QUIZ] Blockchain Terms and Concepts
       link: https://forms.gle/SSmsy5fihtBZVEiP9
-  recording:
+  recording: https://www.youtube.com/watch?v=4xmrOoZ5aEQ
+  in_person: "No"
 
 - date: 01/27/22
   topic: The Idea & Opportunity (1) - How to recognize a Tangible Opportunity
@@ -45,7 +48,7 @@
       link: https://drive.google.com/file/d/1K6NIlM16dPVGPBGNpN0WL8rUJvWGsUWP/view
     - name: 🎥 Weekly Vlog 2
       link: https://flipgrid.com/a42cf1ca
-  recording:
+  recording: https://www.youtube.com/watch?v=REBUZmnWJo0
 
 - date: 02/1/22
   topic: dApp Gala - Team Building Event with B@B
@@ -54,7 +57,9 @@
   material:
     - name: 🥳 Eventbrite Link to RSVP
       link: https://www.eventbrite.com/e/build-a-blockchain-startup-team-building-event-tickets-254315473427
-  recording:
+  recording: https://www.youtube.com/watch?v=jpvzU8jSX0s
+  in_person: "Yes"
+
 
 - date: 02/3/22
   topic: The Idea & Opportunity (2) - Fine Tuning Hypothesis
@@ -69,7 +74,8 @@
       link: https://bcourses.berkeley.edu/courses/1513147/assignments/8402644
     - name: 🎥 Weekly Vlog 3
       link: https://flipgrid.com/b09cd0b7
-  recording:
+  recording: https://www.youtube.com/watch?v=OiiyPVhFk04
+  in_person: "No"
 
 - date: 02/8/22
   topic: IPFS Workshop
@@ -80,10 +86,11 @@
       link: https://app.pinata.cloud/
     - name: 📤 Submit a pinned file
       link: https://bcourses.berkeley.edu/courses/1513147/assignments/8403567
-  recording:
+  recording: https://www.youtube.com/watch?v=Ragoo0wkyYw
+  in_person: "No"
 
 - date: 02/10/22
-  topic: The Idea & Opportunity (3) - Hrish from SuperWorld + 10 Mentors
+  topic: The Idea & Opportunity (3) - Hrish from SuperWorld
   page:
   slides:
   material:
@@ -95,7 +102,8 @@
       link: https://www.loom.com/share/5c4f521c2c8348bb991a92bfe14835ec
     - name: 🎥 Weekly Vlog 4
       link: https://flipgrid.com/352ed667
-  recording:
+  recording: https://www.youtube.com/watch?v=-PFag7i5PgI
+  in_person: "No"
 
 - date: 02/15/22
   topic: How to Enchant & Pitch Practice (1)
@@ -107,6 +115,7 @@
     - name: 📤 Submit Key Takeaways & Notes from workshops
       link: https://bcourses.berkeley.edu/courses/1513147/assignments/8403587
   recording:
+  in_person: "No"
 
 - date: 02/17/22
   topic: The Value (1) - Kelly Leung from MadWorld
@@ -115,7 +124,8 @@
   material:
     - name: 💻 MadWold Website
       link: https://madworld.io/
-  recording:
+  recording: https://www.youtube.com/watch?v=KD16MjPlcig
+  in_person: "No"
 
 - date: 02/22/22
   topic: Introduction to Algorand Smart Contracts - Fabrice Benhamouda, Algorand Foundation
@@ -126,7 +136,8 @@
       file: /resources/#algorand
     - name: 🙋 Fabrice Benhamouda's LinkedIn
       link: https://www.linkedin.com/in/fabrice-benhamouda/
-  recording:
+  recording: https://www.youtube.com/watch?v=I7kgpOQDJxA
+  in_person: "No"
 
 - date: 02/24/22
   topic: The Value (2) - Ada Jonuse from Lympo
@@ -136,6 +147,7 @@
     - name: 🙋 Ada Jonuse's LinkedIn
       link: https://www.linkedin.com/in/ada-jonuse/
   recording: https://www.youtube.com/watch?v=DRuSYK8w2KU
+  in_person: "No"
 
 - date: 03/1/22
   topic: 🛠eth.build to 🏗scaffold-eth - Building Decentralized Apps - Austin Griffith, Ethereum Foundation
@@ -152,7 +164,8 @@
       link: https://eth.build/
     - name: 📺 eth.build (youtube playlist)
       link: https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi
-  recording:
+  recording: https://www.youtube.com/watch?v=Yr7du_n2KWI
+  in_person: "No"
 
 - date: 03/3/22
   topic: User Validation - Ian Lee from Syndicate Protocol
@@ -161,7 +174,8 @@
   material:
     - name: 🙋 Ian Lee's LinkedIn
       link: https://www.linkedin.com/in/mrianlee/
-  recording:
+  recording: https://www.youtube.com/watch?v=9Ywe51lDWRw
+  in_person: "No"
 
 - date: 03/8/22
   topic: Building on Polkadot with Substrate - Emre Surmeli, Web3 Foundation
@@ -172,7 +186,8 @@
       link: https://www.linkedin.com/in/emresurmeli/
     - name: 💻 Course Resources on Polkadot (Parachains & Substrate)
       file: /resources/#polkadot-parachains--substrate
-  recording:
+  recording: https://www.youtube.com/watch?v=BuLJW5jqIHA
+  in_person: "No"
 
 - date: 03/10/22
   topic: Prototyping and Validation - Yat Siu from Animoca Brands
@@ -184,6 +199,7 @@
     - name: 🥳 Eventbrite Link to RSVP
       link: https://www.eventbrite.com/e/blockchain-course-hosting-yat-sui-co-founder-of-a-22b-blockchain-company-tickets-272477757307
   recording:
+  in_person: "No"
 
 - date: 03/15/22
   topic: Class Pitch Practice (1)
@@ -200,15 +216,11 @@
   in_person: "Yes"
 
 - date: 03/17/22
-  topic: Business and Revenue Models in dApps - Philip Rosedale from Second Life and Jason Festa from Upland
+  topic: Business and Revenue Models in dApps
   page:
   slides:
   material:
-    - name: 🙋 Philip Rosedale's LinkedIn
-      link: https://www.linkedin.com/in/philiprosedale/
-    - name: 🙋 Jason Festa's LinkedIn
-      link: https://www.linkedin.com/in/jasonfesta/
-  recording:
+  recording: https://www.youtube.com/watch?v=8_9smIyRn7M
   in_person: "Yes"
 
 - date: 03/22/22
