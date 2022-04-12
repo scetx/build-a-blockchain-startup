@@ -201,7 +201,7 @@
   in_person: "No"
 
 - date: 03/15/22
-  topic: Class Pitch Round (1)
+  topic: Class Pitch Round 1
   page:
   slides:
   material:
@@ -265,6 +265,12 @@
   page:
   slides:
   material:
+      - name: 🙋 Jarek Jakubcek's LinkedIn
+        link: https://www.linkedin.com/in/jakubcek/
+      - name: 🙋 Barbara Vera's LinkedIn
+        link: https://www.linkedin.com/in/barbaraveraf/
+      - name: 🙋 Scott Nelson's LinkedIn
+        link: https://www.linkedin.com/in/scottnelsonbigcontrols/
   recording:
   in_person: "Yes"
 
@@ -273,6 +279,12 @@
   page:
   slides:
   material:
+      - name: 🙋 Jarek Jakubcek's LinkedIn
+        link: https://www.linkedin.com/in/jakubcek/
+      - name: 🙋 Barbara Vera's LinkedIn
+        link: https://www.linkedin.com/in/barbaraveraf/
+      - name: 🙋 Scott Nelson's LinkedIn
+        link: https://www.linkedin.com/in/scottnelsonbigcontrols/
   recording:
   in_person: "Yes"
 
