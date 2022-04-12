@@ -201,7 +201,7 @@
   in_person: "No"
 
 - date: 03/15/22
-  topic: Class Pitch Practice (1)
+  topic: Class Pitch Round (1)
   page:
   slides:
   material:
@@ -229,11 +229,11 @@
   topic: "SPRING BREAK!"
 
 - date: 03/29/22
-  topic: Deep Dive into dApp Architecture
+  topic: Holistic Web3 & dApp Architecture
   page:
-  slides:
+  slides: https://docs.google.com/presentation/d/1cigRHBG-SFWVh89CewHbUJbAM1MGIInrOPlMu56s9pI/edit?usp=sharing
   material:
-  recording:
+  recording: https://www.youtube.com/watch?v=BDXH5xCpT6Q
   in_person: "No"
 
 - date: 03/31/22
@@ -245,25 +245,23 @@
   in_person: "No"
 
 - date: 04/5/22
-  topic: TBA
+  topic: Revolutionary Web3
   page:
-  slides:
+  slides: https://docs.google.com/presentation/d/19hI99Sa429OSgktZBS2JAi_GBDan60J9juPW5kikYv4/
   material:
-  recording:
-  in_person: "Yes"
+  recording: https://www.youtube.com/watch?v=tARySjWIVHA
+  in_person: "No"
 
 - date: 04/7/22
-  topic: Sales KPIs and OKRs - Arthur Madrid from The Sandbox
+  topic: The Art of Storytelling & Master Class Pitch Practice (2)
   page:
   slides:
   material:
-    - name: 🙋 Arthur Madrid's LinkedIn
-      link: https://www.linkedin.com/in/arthurmadrid/
-  recording:
+  recording: https://www.youtube.com/watch?v=G28FKClQt9Y
   in_person: "Yes"
 
 - date: 04/12/22
-  topic: TBA
+  topic: Class Pitch Round 2 (Day 1)
   page:
   slides:
   material:
@@ -271,12 +269,10 @@
   in_person: "Yes"
 
 - date: 04/14/22
-  topic: Pitching and Storytelling - Ray Lu from Bit.country
+  topic: Class Pitch Round 2 (Day 2)
   page:
   slides:
   material:
-    - name: 🙋 Ray Lu's LinkedIn
-      link: https://www.linkedin.com/in/codemeit/
   recording:
   in_person: "Yes"
 
@@ -301,7 +297,7 @@
   in_person: "Yes"
 
 - date: 04/26/22
-  topic: TBA
+  topic: Technical Demo Day
   page:
   slides:
   material:
@@ -309,12 +305,10 @@
   in_person: "Yes"
 
 - date: 04/28/22
-  topic: Legal, IP, Finance, and Growth - Arif Khan from Althea AI
+  topic: Final Presentations!
   page:
   slides:
   material:
-    - name: 🙋 Arif Khan's LinkedIn
-      link: https://www.linkedin.com/in/arikhan/
   recording:
   in_person: "Yes"
 
