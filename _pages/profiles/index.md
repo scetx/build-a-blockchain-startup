@@ -19,3 +19,4 @@ Note all profile pics and slides are included iun `/assets` that are availbe at 
 - [Arthur Madrid](./madrid)
 - [Peter Smith](./smith)
 - [Arif Khan](./khan)
+- [Nate Pola](./pola)
